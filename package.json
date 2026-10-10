@@ -1,0 +1,51 @@
+{
+  "name": "myanmar-nrc-validator",
+  "version": "1.0.18",
+  "description": "A robust TypeScript library to validate, parse, and format Myanmar NRC numbers, states, townships, and citizen types.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "bin": {
+    "myanmar-nrc-validator": "./dist/cli.js",
+    "nrc": "./dist/cli.js"
+  },
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "myanmar",
+    "nrc",
+    "validator",
+    "burmese-nrc",
+    "nrc-parser",
+    "cannopy-fleet"
+  ],
+  "author": "Aung Phyo Khant",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^24.21.0",
+    "rimraf": "^6.0.0",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "zod": "^3.24.0"
+  }
+}

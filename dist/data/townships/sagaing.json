@@ -1,0 +1,336 @@
+{
+    "stateCode": "5",
+    "stateNameEn": "Sagaing Region",
+    "stateNameMm": "စစ်ကိုင်းတိုင်းဒေသကြီး",
+    "townships": [
+        {
+            "en": "ARATA",
+            "mm": "အရတ",
+            "code": 5,
+            "fullEn": "AhYaTa",
+            "fullMm": "အရာတော်"
+        },
+        {
+            "en": "BAMANA",
+            "mm": "ဗမန",
+            "code": 5,
+            "fullEn": "BaMaNa",
+            "fullMm": "ဗန်းမောက်"
+        },
+        {
+            "en": "BHATALA",
+            "mm": "ဘတလ",
+            "code": 5,
+            "fullEn": "BaTaLa",
+            "fullMm": "ဘုတလင်"
+        },
+        {
+            "en": "KHAUNA",
+            "mm": "ခဥန",
+            "code": 5,
+            "fullEn": "KhaOuNa",
+            "fullMm": "ချောင်းဦး"
+        },
+        {
+            "en": "DAPAYA",
+            "mm": "ဒပယ",
+            "code": 5,
+            "fullEn": "DaPaYa",
+            "fullMm": "ဒီပဲယင်း"
+        },
+        {
+            "en": "HAMALA",
+            "mm": "ဟမလ",
+            "code": 5,
+            "fullEn": "HaMaLa",
+            "fullMm": "ဟုမ္မလင်း"
+        },
+        {
+            "en": "THAKHANA",
+            "mm": "ထခန",
+            "code": 5,
+            "fullEn": "HtaKhaNa",
+            "fullMm": "ထီးချိုင့်"
+        },
+        {
+            "en": "ATANA",
+            "mm": "အတန",
+            "code": 5,
+            "fullEn": "AhTaNa",
+            "fullMm": "အင်းတော်"
+        },
+        {
+            "en": "KANANA",
+            "mm": "ကနန",
+            "code": 5,
+            "fullEn": "KaNaNa",
+            "fullMm": "ကနီ"
+        },
+        {
+            "en": "KASANA",
+            "mm": "ကသန",
+            "code": 5,
+            "fullEn": "KaThaNa",
+            "fullMm": "ကသာ"
+        },
+        {
+            "en": "KALATHA",
+            "mm": "ကလထ",
+            "code": 5,
+            "fullEn": "KaLaHta",
+            "fullMm": "ကလေး"
+        },
+        {
+            "en": "KALAWA",
+            "mm": "ကလဝ",
+            "code": 5,
+            "fullEn": "KaLaWa",
+            "fullMm": "ကလေးဝ"
+        },
+        {
+            "en": "KABHANA",
+            "mm": "ကဘန",
+            "code": 5,
+            "fullEn": "KaBaLa",
+            "fullMm": "ကန့်ဘလူ"
+        },
+        {
+            "en": "KALATA",
+            "mm": "ကလတ",
+            "code": 5,
+            "fullEn": "KaLaTa",
+            "fullMm": "ကောလင်း"
+        },
+        {
+            "en": "KHATANA",
+            "mm": "ခတန",
+            "code": 5,
+            "fullEn": "KhaTaNa",
+            "fullMm": "ခန္တီး"
+        },
+        {
+            "en": "KHAUTA",
+            "mm": "ခဥတ",
+            "code": 5,
+            "fullEn": "KhaOuTa",
+            "fullMm": "ခင်ဦး"
+        },
+        {
+            "en": "KALANA",
+            "mm": "ကလန",
+            "code": 5,
+            "fullEn": "KaLaNa",
+            "fullMm": "ကျွန်းလှ"
+        },
+        {
+            "en": "MALANA",
+            "mm": "မလန",
+            "code": 5,
+            "fullEn": "MaLaNa",
+            "fullMm": "မော်လိုက်"
+        },
+        {
+            "en": "MAKANA",
+            "mm": "မကန",
+            "code": 5,
+            "fullEn": "MaKaNa",
+            "fullMm": "မင်းကင်း"
+        },
+        {
+            "en": "MARANA",
+            "mm": "မရန",
+            "code": 5,
+            "fullEn": "MaYaNa",
+            "fullMm": "မုံရွာ"
+        },
+        {
+            "en": "MAMANA",
+            "mm": "မမန",
+            "code": 5,
+            "fullEn": "MaMaNa",
+            "fullMm": "မြောင်"
+        },
+        {
+            "en": "NAYANA",
+            "mm": "နယန",
+            "code": 5,
+            "fullEn": "NaYaNa",
+            "fullMm": "နန်းယွန်း"
+        },
+        {
+            "en": "NGAZANA",
+            "mm": "ငဇန",
+            "code": 5,
+            "fullEn": "NgaZaNa",
+            "fullMm": "ငါးန်ဇွန်"
+        },
+        {
+            "en": "PALANA",
+            "mm": "ပလန",
+            "code": 5,
+            "fullEn": "PaLaNa",
+            "fullMm": "ပုလဲ"
+        },
+        {
+            "en": "PHAPANA",
+            "mm": "ဖပန",
+            "code": 5,
+            "fullEn": "PhaPaNa",
+            "fullMm": "ဖောင်ပျင်း"
+        },
+        {
+            "en": "PALABHA",
+            "mm": "ပလဘ",
+            "code": 5,
+            "fullEn": "PaLanBa",
+            "fullMm": "ပင်လယ်ဘူး"
+        },
+        {
+            "en": "CAKANA",
+            "mm": "စကန",
+            "code": 5,
+            "fullEn": "SaKaNa",
+            "fullMm": "စစ်ကိုင်း"
+        },
+        {
+            "en": "CHALAKA",
+            "mm": "ဆလက",
+            "code": 5,
+            "fullEn": "SaLaKa",
+            "fullMm": "ဆားလင်းကြီး"
+        },
+        {
+            "en": "RABHANA",
+            "mm": "ရဘန",
+            "code": 5,
+            "fullEn": "YaBaNa",
+            "fullMm": "ရွှေဘို"
+        },
+        {
+            "en": "TAMANA",
+            "mm": "တမန",
+            "code": 5,
+            "fullEn": "TaMaNa",
+            "fullMm": "တမူး"
+        },
+        {
+            "en": "TACHANA",
+            "mm": "တဆန",
+            "code": 5,
+            "fullEn": "TaSaNa",
+            "fullMm": "တန့်ဆည်"
+        },
+        {
+            "en": "WALANA",
+            "mm": "ဝလန",
+            "code": 5,
+            "fullEn": "WaLaNa",
+            "fullMm": "ဝက်လက်"
+        },
+        {
+            "en": "WASANA",
+            "mm": "ဝသန",
+            "code": 5,
+            "fullEn": "WaThaNa",
+            "fullMm": "ဝမ်းသို"
+        },
+        {
+            "en": "RAUNA",
+            "mm": "ရဥန",
+            "code": 5,
+            "fullEn": "YaOuNa",
+            "fullMm": "ရေဦး"
+        },
+        {
+            "en": "YAMAPA",
+            "mm": "ယမပ",
+            "code": 5,
+            "fullEn": "YaMaPa",
+            "fullMm": "ယင်းမာပင်"
+        },
+        {
+            "en": "RASAKA",
+            "mm": "ရသက",
+            "code": 5,
+            "fullEn": "YaThaKa",
+            "fullMm": "ရွာသစ်ကြီး"
+        },
+        {
+            "en": "DAHANA",
+            "mm": "ဒဟန",
+            "code": 5,
+            "fullEn": "DaHaNa",
+            "fullMm": "ဒုံဟီး"
+        },
+        {
+            "en": "CHAMARA",
+            "mm": "ဆမရ",
+            "code": 5,
+            "fullEn": "SaMaYa",
+            "fullMm": "ဆွမ္မရာ"
+        },
+        {
+            "en": "THAPAKHA",
+            "mm": "ထပခ",
+            "code": 5,
+            "fullEn": "HtaPaKha",
+            "fullMm": "ထန်ပါခွေ"
+        },
+        {
+            "en": "KAMANA",
+            "mm": "ကမန",
+            "code": 5,
+            "fullEn": "KaMaNa",
+            "fullMm": "ကျောက်မြောင်း"
+        },
+        {
+            "en": "KHAPANA",
+            "mm": "ခပန",
+            "code": 5,
+            "fullEn": "KhaPaNa",
+            "fullMm": "ခမ်းပတ်"
+        },
+        {
+            "en": "LAHANA",
+            "mm": "လဟန",
+            "code": 5,
+            "fullEn": "LaHaNa",
+            "fullMm": "လဟယ်"
+        },
+        {
+            "en": "LARANA",
+            "mm": "လရန",
+            "code": 5,
+            "fullEn": "LaYaNa",
+            "fullMm": "လေရှီး"
+        },
+        {
+            "en": "MAMATA",
+            "mm": "မမတ",
+            "code": 5,
+            "fullEn": "MaMaNa",
+            "fullMm": "မြင်းမူ"
+        },
+        {
+            "en": "MAPALA",
+            "mm": "မပလ",
+            "code": 5,
+            "fullEn": "MaPaLa",
+            "fullMm": "မိုပိုင်းလွတ်"
+        },
+        {
+            "en": "MASANA",
+            "mm": "မသန",
+            "code": 5,
+            "fullEn": "MaThaNa",
+            "fullMm": "မြို့သစ်"
+        },
+        {
+            "en": "PACHANA",
+            "mm": "ပဆန",
+            "code": 5,
+            "fullEn": "PaSaNa",
+            "fullMm": "ပန်ဆောင်"
+        }
+    ]
+}

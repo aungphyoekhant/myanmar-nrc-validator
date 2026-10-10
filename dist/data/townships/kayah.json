@@ -1,0 +1,70 @@
+{
+    "stateCode": "2",
+    "stateNameEn": "Kayah State",
+    "stateNameMm": "ကယားပြည်နယ်",
+    "townships": [
+        {
+            "en": "BHALAKHA",
+            "mm": "ဘလခ",
+            "code": 2,
+            "fullEn": "BaLaKha",
+            "fullMm": "ဘော်လခဲ"
+        },
+        {
+            "en": "DAMACHA",
+            "mm": "ဒမဆ",
+            "code": 2,
+            "fullEn": "DaMaSa",
+            "fullMm": "ဒီမောဆိုး"
+        },
+        {
+            "en": "LAKANA",
+            "mm": "လကန",
+            "code": 2,
+            "fullEn": "LaKaNa",
+            "fullMm": "လွိုင်ကော်"
+        },
+        {
+            "en": "MACHANA",
+            "mm": "မဆန",
+            "code": 2,
+            "fullEn": "MaSaNa",
+            "fullMm": "မယ်ဆည်နန်"
+        },
+        {
+            "en": "PHACHANA",
+            "mm": "ဖဆန",
+            "code": 2,
+            "fullEn": "PhaSaNa",
+            "fullMm": "ဖားဆောင်း"
+        },
+        {
+            "en": "PHARACHA",
+            "mm": "ဖရဆ",
+            "code": 2,
+            "fullEn": "PhaYaSa",
+            "fullMm": "ဖရူးဆိုး"
+        },
+        {
+            "en": "RATANA",
+            "mm": "ရတန",
+            "code": 2,
+            "fullEn": "YaTaNa",
+            "fullMm": "ရှားတော်"
+        },
+        {
+            "en": "MACANA",
+            "mm": "မစန",
+            "code": 2,
+            "fullEn": "MaSaNa",
+            "fullMm": "မယ်စဲ့"
+        },
+        {
+            "en": "RASANA",
+            "mm": "ရသန",
+            "code": 2,
+            "fullEn": "YaThaNa",
+            "fullMm": "ရွာသစ်"
+        }
+    ]
+}

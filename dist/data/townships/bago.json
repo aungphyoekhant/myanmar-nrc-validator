@@ -1,0 +1,259 @@
+{
+    "stateCode": "7",
+    "stateNameEn": "Bago Region",
+    "stateNameMm": "ပဲခူးတိုင်းဒေသကြီး",
+    "townships": [
+        {
+            "en": "APHANA",
+            "mm": "အဖန",
+            "code": 7,
+            "fullEn": "AhPhaNa",
+            "fullMm": "အုတ်ဖို"
+        },
+        {
+            "en": "APHANA",
+            "mm": "အဖန",
+            "code": 7,
+            "fullEn": "AhPhaNa",
+            "fullMm": "အုတ်ဖြတ်"
+        },
+        {
+            "en": "ATANA",
+            "mm": "အတန",
+            "code": 7,
+            "fullEn": "AhTaNa",
+            "fullMm": "အုတ်တွင်း"
+        },
+        {
+            "en": "DAUNA",
+            "mm": "ဒဥန",
+            "code": 7,
+            "fullEn": "DaOuNa",
+            "fullMm": "ဒိုက်ဦး"
+        },
+        {
+            "en": "THATAPA",
+            "mm": "ထတပ",
+            "code": 7,
+            "fullEn": "HtaTaPa",
+            "fullMm": "ထန်းတပင်"
+        },
+        {
+            "en": "KATATA",
+            "mm": "ကတတ",
+            "code": 7,
+            "fullEn": "KaTaTa",
+            "fullMm": "ကေတုမတီ"
+        },
+        {
+            "en": "KAPAKA",
+            "mm": "ကပက",
+            "code": 7,
+            "fullEn": "KaPaKa",
+            "fullMm": "ကြို့ပင်ကောက်"
+        },
+        {
+            "en": "KAKANA",
+            "mm": "ကကန",
+            "code": 7,
+            "fullEn": "KaKaNa",
+            "fullMm": "ကျောက်ကြီး"
+        },
+        {
+            "en": "KATAKHA",
+            "mm": "ကတခ",
+            "code": 7,
+            "fullEn": "KaTaKha",
+            "fullMm": "ကျောက်တံခါး"
+        },
+        {
+            "en": "KAKANA",
+            "mm": "ကကန",
+            "code": 7,
+            "fullEn": "KaKaNa",
+            "fullMm": "ကျောက်ကုန်း"
+        },
+        {
+            "en": "MADANA",
+            "mm": "မဒန",
+            "code": 7,
+            "fullEn": "MaDaNa",
+            "fullMm": "မဒေါက်"
+        },
+        {
+            "en": "MALANA",
+            "mm": "မလန",
+            "code": 7,
+            "fullEn": "MaLaNa",
+            "fullMm": "မင်းလှ"
+        },
+        {
+            "en": "MANNYANA",
+            "mm": "မညန",
+            "code": 7,
+            "fullEn": "MaNyaNa",
+            "fullMm": "မိုးညို"
+        },
+        {
+            "en": "NATALA",
+            "mm": "နတလ",
+            "code": 7,
+            "fullEn": "NaTaLa",
+            "fullMm": "နတ်တလင်း"
+        },
+        {
+            "en": "NNYALAPA",
+            "mm": "ညလပ",
+            "code": 7,
+            "fullEn": "NyaLaPa",
+            "fullMm": "ညောင်လေးပင်"
+        },
+        {
+            "en": "PANAKA",
+            "mm": "ပနက",
+            "code": 7,
+            "fullEn": "PaNaKa",
+            "fullMm": "ပဲနွယ်ကုန်း"
+        },
+        {
+            "en": "PAKHANA",
+            "mm": "ပခန",
+            "code": 7,
+            "fullEn": "PaKhaNa",
+            "fullMm": "ပဲခူး"
+        },
+        {
+            "en": "PATANA",
+            "mm": "ပတန",
+            "code": 7,
+            "fullEn": "PaTaNa",
+            "fullMm": "ပန်တောင်း"
+        },
+        {
+            "en": "PAKHANA",
+            "mm": "ပခန",
+            "code": 7,
+            "fullEn": "PaKhaTa",
+            "fullMm": "ပေါက်ခေါင်း"
+        },
+        {
+            "en": "PATATA",
+            "mm": "ပတတ",
+            "code": 7,
+            "fullEn": "PaTaTa",
+            "fullMm": "ပေါင်းတည်"
+        },
+        {
+            "en": "PHAMANA",
+            "mm": "ဖမန",
+            "code": 7,
+            "fullEn": "PhaMaNa",
+            "fullMm": "ဖြူး"
+        },
+        {
+            "en": "PAMANA",
+            "mm": "ပမန",
+            "code": 7,
+            "fullEn": "PaMaNa",
+            "fullMm": "ပြည်"
+        },
+        {
+            "en": "PATACA",
+            "mm": "ပတစ",
+            "code": 7,
+            "fullEn": "PaTaSa",
+            "fullMm": "ပြွန်တဆာ"
+        },
+        {
+            "en": "RAKANA",
+            "mm": "ရကန",
+            "code": 7,
+            "fullEn": "YaKaNa",
+            "fullMm": "ရွှေကျင်"
+        },
+        {
+            "en": "RATANA",
+            "mm": "ရတန",
+            "code": 7,
+            "fullEn": "YaTaNa",
+            "fullMm": "ရွှေတောင်"
+        },
+        {
+            "en": "TANGANA",
+            "mm": "တငန",
+            "code": 7,
+            "fullEn": "TaNgaNa",
+            "fullMm": "တောင်ငူ"
+        },
+        {
+            "en": "SANAPA",
+            "mm": "သနပ",
+            "code": 7,
+            "fullEn": "ThaNaPa",
+            "fullMm": "သနပ်ပင်"
+        },
+        {
+            "en": "SAKANA",
+            "mm": "သကန",
+            "code": 7,
+            "fullEn": "ThaKaNa",
+            "fullMm": "သဲကုန်း"
+        },
+        {
+            "en": "SAWATA",
+            "mm": "သဝတ",
+            "code": 7,
+            "fullEn": "ThaWaTa",
+            "fullMm": "သာယာဝတီ"
+        },
+        {
+            "en": "SACHANA",
+            "mm": "သဆန",
+            "code": 7,
+            "fullEn": "ThaSaNa",
+            "fullMm": "သုံးဆယ်"
+        },
+        {
+            "en": "WAMANA",
+            "mm": "ဝမန",
+            "code": 7,
+            "fullEn": "WaMaNa",
+            "fullMm": "ဝေါ"
+        },
+        {
+            "en": "RATARA",
+            "mm": "ရတရ",
+            "code": 7,
+            "fullEn": "YaTaYa",
+            "fullMm": "ရေတာရှည်"
+        },
+        {
+            "en": "ZAKANA",
+            "mm": "ဇကန",
+            "code": 7,
+            "fullEn": "ZaKaNa",
+            "fullMm": "ဇီးကုန်း"
+        },
+        {
+            "en": "KAWANA",
+            "mm": "ကဝန",
+            "code": 7,
+            "fullEn": "KaWaNa",
+            "fullMm": "ကဝ"
+        },
+        {
+            "en": "LAPATA",
+            "mm": "လပတ",
+            "code": 7,
+            "fullEn": "LaPATa",
+            "fullMm": "လက်ပံတန်း"
+        },
+        {
+            "en": "PATALA",
+            "mm": "ပတလ",
+            "code": 7,
+            "fullEn": "PaTaLa",
+            "fullMm": "ပေါင်းတလည်"
+        }
+    ]
+}

@@ -1,0 +1,126 @@
+{
+  "stateCode": "3",
+  "stateNameEn": "Kayin State",
+  "stateNameMm": "ကရင်ပြည်နယ်",
+  "townships": [
+    {
+      "en": "LABHANA",
+      "mm": "လဘန",
+      "code": 3,
+      "fullEn": "LaBaNa",
+      "fullMm": "လှိုင်းဘွဲ့"
+    },
+    {
+      "en": "KAKARA",
+      "mm": "ကကရ",
+      "code": 3,
+      "fullEn": "KaKaYa",
+      "fullMm": "ကော့ကရိတ်"
+    },
+    {
+      "en": "KACHAKA",
+      "mm": "ကဆက",
+      "code": 3,
+      "fullEn": "KaSaKa",
+      "fullMm": "ကြာအင်းဆိပ်ကြီး"
+    },
+    {
+      "en": "KADANA",
+      "mm": "ကဒန",
+      "code": 3,
+      "fullEn": "KaDaNa",
+      "fullMm": "ကျုံဒိုး"
+    },
+    {
+      "en": "MAWATA",
+      "mm": "မဝတ",
+      "code": 3,
+      "fullEn": "MaWaTa",
+      "fullMm": "မြဝတီ"
+    },
+    {
+      "en": "PHAANA",
+      "mm": "ဖအန",
+      "code": 3,
+      "fullEn": "PhaAhNa",
+      "fullMm": "ဖားအံ"
+    },
+    {
+      "en": "BHAANA",
+      "mm": "ဘအန",
+      "code": 3,
+      "fullEn": "BaAhNa",
+      "fullMm": "ဘားအံ"
+    },
+    {
+      "en": "PHAPANA",
+      "mm": "ဖပန",
+      "code": 3,
+      "fullEn": "PhaPaNa",
+      "fullMm": "ဖျာပွန်"
+    },
+    {
+      "en": "SATANA",
+      "mm": "သတန",
+      "code": 3,
+      "fullEn": "ThaTaNa",
+      "fullMm": "သံတောင်"
+    },
+    {
+      "en": "BHAGALA",
+      "mm": "ဘဂလ",
+      "code": 3,
+      "fullEn": "BaGaLa",
+      "fullMm": "ဘောဂလိ"
+    },
+    {
+      "en": "BHASACHA",
+      "mm": "ဘသဆ",
+      "code": 3,
+      "fullEn": "BaThaSa",
+      "fullMm": "ဘုရားသုံးဆူ"
+    },
+    {
+      "en": "KAMAMA",
+      "mm": "ကမမ",
+      "code": 3,
+      "fullEn": "KaMaMa",
+      "fullMm": "ကမမောင်း"
+    },
+    {
+      "en": "LASANA",
+      "mm": "လသန",
+      "code": 3,
+      "fullEn": "LaThaNa",
+      "fullMm": "လိပ်သို"
+    },
+    {
+      "en": "CAKALA",
+      "mm": "စကလ",
+      "code": 3,
+      "fullEn": "SaKaLa",
+      "fullMm": "စုကလိ"
+    },
+    {
+      "en": "SATAKA",
+      "mm": "သတက",
+      "code": 3,
+      "fullEn": "ThaTaKa",
+      "fullMm": "သံတောင်ကြီး"
+    },
+    {
+      "en": "WALAMA",
+      "mm": "ဝလမ",
+      "code": 3,
+      "fullEn": "WaLaMa",
+      "fullMm": "ဝေါလေမြိုင်"
+    },
+    {
+      "en": "RARASA",
+      "mm": "ရရသ",
+      "code": 3,
+      "fullEn": "YaYaTha",
+      "fullMm": "ရှမ်းရွာသစ်"
+    }
+  ]
+}

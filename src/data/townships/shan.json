@@ -1,0 +1,455 @@
+{
+  "stateCode": "13",
+  "stateNameEn": "Shan State",
+  "stateNameMm": "ရှမ်းပြည်နယ်",
+  "townships": [
+    {
+      "en": "KHARAHA",
+      "mm": "ခရဟ",
+      "code": 13,
+      "fullEn": "KhaYaHa",
+      "fullMm": "ချင်းရွှေဟော်"
+    },
+    {
+      "en": "HAPATA",
+      "mm": "ဟပတ",
+      "code": 13,
+      "fullEn": "HaPaTa",
+      "fullMm": "ဟိုပန်"
+    },
+    {
+      "en": "HAPANA",
+      "mm": "ဟပန",
+      "code": 13,
+      "fullEn": "HaPaNa",
+      "fullMm": "ဟိုပုံး"
+    },
+    {
+      "en": "KALANA",
+      "mm": "ကလန",
+      "code": 13,
+      "fullEn": "KaLaNa",
+      "fullMm": "ကလော"
+    },
+    {
+      "en": "KALATA",
+      "mm": "ကလတ",
+      "code": 13,
+      "fullEn": "KaLaTa",
+      "fullMm": "ကွမ်းလုံ"
+    },
+    {
+      "en": "KAHANA",
+      "mm": "ကဟန",
+      "code": 13,
+      "fullEn": "KaHaNa",
+      "fullMm": "ကွန်ဟိန်း"
+    },
+    {
+      "en": "KASANA",
+      "mm": "ကသန",
+      "code": 13,
+      "fullEn": "KaThaNa",
+      "fullMm": "ကျေးသီး"
+    },
+    {
+      "en": "KATATA",
+      "mm": "ကတတ",
+      "code": 13,
+      "fullEn": "KaTaTa",
+      "fullMm": "ကျိုင်းတောင်း"
+    },
+    {
+      "en": "KATANA",
+      "mm": "ကတန",
+      "code": 13,
+      "fullEn": "KaTaNa",
+      "fullMm": "ကျိုင်းတုံ"
+    },
+    {
+      "en": "KAMANA",
+      "mm": "ကမန",
+      "code": 13,
+      "fullEn": "KaMaNa",
+      "fullMm": "ကျောက်မဲ"
+    },
+    {
+      "en": "KAKHANA",
+      "mm": "ကခန",
+      "code": 13,
+      "fullEn": "KaKhaNa",
+      "fullMm": "ကွတ်ခိုင်"
+    },
+    {
+      "en": "LARANA",
+      "mm": "လရန",
+      "code": 13,
+      "fullEn": "LaYaNa",
+      "fullMm": "လားရှိုး"
+    },
+    {
+      "en": "LAKANA",
+      "mm": "လကန",
+      "code": 13,
+      "fullEn": "LaKaNa",
+      "fullMm": "လောက်ကိုင်"
+    },
+    {
+      "en": "LAKHATA",
+      "mm": "လခတ",
+      "code": 13,
+      "fullEn": "LaKhaTa",
+      "fullMm": "လဲချား"
+    },
+    {
+      "en": "LAKHANA",
+      "mm": "လခန",
+      "code": 13,
+      "fullEn": "LaKhaNa",
+      "fullMm": "လင်းခေး"
+    },
+    {
+      "en": "LALANA",
+      "mm": "လလန",
+      "code": 13,
+      "fullEn": "LaLaNa",
+      "fullMm": "လွိုင်လင်"
+    },
+    {
+      "en": "MABHANA",
+      "mm": "မဘန",
+      "code": 13,
+      "fullEn": "MaBaNa",
+      "fullMm": "မဘိမ်း"
+    },
+    {
+      "en": "MAKANA",
+      "mm": "မကန",
+      "code": 13,
+      "fullEn": "MaKaNa",
+      "fullMm": "မိုင်းကိုင်"
+    },
+    {
+      "en": "MAKHANA",
+      "mm": "မခန",
+      "code": 13,
+      "fullEn": "MaKhaNa",
+      "fullMm": "မိုင်းခတ်"
+    },
+    {
+      "en": "MAPHANA",
+      "mm": "မဖန",
+      "code": 13,
+      "fullEn": "MaPHaNa",
+      "fullMm": "မိုင်းဖြတ်"
+    },
+    {
+      "en": "MAPATA",
+      "mm": "မပတ",
+      "code": 13,
+      "fullEn": "MaPaTa",
+      "fullMm": "မိုင်းပြင်း"
+    },
+    {
+      "en": "MACHANA",
+      "mm": "မဆန",
+      "code": 13,
+      "fullEn": "MaSaNa",
+      "fullMm": "မိုင်းဆတ်"
+    },
+    {
+      "en": "MARANA",
+      "mm": "မရန",
+      "code": 13,
+      "fullEn": "MaYaNa",
+      "fullMm": "မိုင်းရှုး"
+    },
+    {
+      "en": "MARATA",
+      "mm": "မရတ",
+      "code": 13,
+      "fullEn": "MaYaTa",
+      "fullMm": "မိုင်းရယ်"
+    },
+    {
+      "en": "MATATA",
+      "mm": "မတတ",
+      "code": 13,
+      "fullEn": "MaTaTa",
+      "fullMm": "မန်တုန်"
+    },
+    {
+      "en": "MAMATA",
+      "mm": "မမတ",
+      "code": 13,
+      "fullEn": "MaMaTa",
+      "fullMm": "မိုးမိတ်"
+    },
+    {
+      "en": "MANANA",
+      "mm": "မနန",
+      "code": 13,
+      "fullEn": "MaNaNa",
+      "fullMm": "မိုးနဲ"
+    },
+    {
+      "en": "MAKANA_2",
+      "mm": "မကန",
+      "code": 13,
+      "fullEn": "MaKaNa",
+      "fullMm": "မုန်းကိုး"
+    },
+    {
+      "en": "MACHATA",
+      "mm": "မဆတ",
+      "code": 13,
+      "fullEn": "MaSaTa",
+      "fullMm": "မူဆယ်"
+    },
+    {
+      "en": "NAMATA",
+      "mm": "နမတ",
+      "code": 13,
+      "fullEn": "NaMaTa",
+      "fullMm": "နမ့်မတူ"
+    },
+    {
+      "en": "NAKHANA",
+      "mm": "နခန",
+      "code": 13,
+      "fullEn": "NaKhaNa",
+      "fullMm": "နမ့်ခမ်း"
+    },
+    {
+      "en": "NACHANA",
+      "mm": "နဆန",
+      "code": 13,
+      "fullEn": "NaSaNa",
+      "fullMm": "နမ့်ဆန်"
+    },
+    {
+      "en": "NAPHANA",
+      "mm": "နဖန",
+      "code": 13,
+      "fullEn": "NaPaNa",
+      "fullMm": "နမ့်ဖိုင်"
+    },
+    {
+      "en": "NAKHATA",
+      "mm": "နခတ",
+      "code": 13,
+      "fullEn": "NaKhaTa",
+      "fullMm": "နောင်ချို"
+    },
+    {
+      "en": "NNYARANA",
+      "mm": "ညရန",
+      "code": 13,
+      "fullEn": "NyaYaNa",
+      "fullMm": "ညောင်ရွှေ"
+    },
+    {
+      "en": "PHAKHANA",
+      "mm": "ဖခန",
+      "code": 13,
+      "fullEn": "PhaKhaNa",
+      "fullMm": "ဖယ်ခုံ"
+    },
+    {
+      "en": "PALANA",
+      "mm": "ပလန",
+      "code": 13,
+      "fullEn": "PaLaNa",
+      "fullMm": "ပင်လုံ"
+    },
+    {
+      "en": "PATARA",
+      "mm": "ပတရ",
+      "code": 13,
+      "fullEn": "PaTaYa",
+      "fullMm": "ပင်းတယ"
+    },
+    {
+      "en": "CHACHANA",
+      "mm": "ဆဆန",
+      "code": 13,
+      "fullEn": "SaSaNa",
+      "fullMm": "ဆီဆိုင်"
+    },
+    {
+      "en": "RANNYANA",
+      "mm": "ရညန",
+      "code": 13,
+      "fullEn": "YaNyaNa",
+      "fullMm": "ရွှေညောင်"
+    },
+    {
+      "en": "TAYANA",
+      "mm": "တယန",
+      "code": 13,
+      "fullEn": "TaYaNa",
+      "fullMm": "တန့်ယန်း"
+    },
+    {
+      "en": "TAMANNYA",
+      "mm": "တမည",
+      "code": 13,
+      "fullEn": "TaMaNya",
+      "fullMm": "တာမိုးညဲ"
+    },
+    {
+      "en": "TAKHALA",
+      "mm": "တခလ",
+      "code": 13,
+      "fullEn": "TaKhaLa",
+      "fullMm": "တာချီလိတ်"
+    },
+    {
+      "en": "TALANA",
+      "mm": "တလန",
+      "code": 13,
+      "fullEn": "TaLaNa",
+      "fullMm": "တာလေ"
+    },
+    {
+      "en": "TAKANA",
+      "mm": "တကန",
+      "code": 13,
+      "fullEn": "TaKaNa",
+      "fullMm": "တောင်ကြီး"
+    },
+    {
+      "en": "SANANA",
+      "mm": "သနန",
+      "code": 13,
+      "fullEn": "ThaNaNa",
+      "fullMm": "သိန္နီ"
+    },
+    {
+      "en": "SAPANA",
+      "mm": "သပန",
+      "code": 13,
+      "fullEn": "ThaPaNa",
+      "fullMm": "သီပေါ"
+    },
+    {
+      "en": "RANGANA",
+      "mm": "ရငန",
+      "code": 13,
+      "fullEn": "YaNgaNa",
+      "fullMm": "ရွာငံ"
+    },
+    {
+      "en": "RACANA",
+      "mm": "ရစန",
+      "code": 13,
+      "fullEn": "YaSaNa",
+      "fullMm": "ရပ်စောက်"
+    },
+    {
+      "en": "APANA",
+      "mm": "အပန",
+      "code": 13,
+      "fullEn": "AhPaNa",
+      "fullMm": "အောင်ပန်း"
+    },
+    {
+      "en": "ATANA",
+      "mm": "အတန",
+      "code": 13,
+      "fullEn": "AhTaNa",
+      "fullMm": "အင်တော"
+    },
+    {
+      "en": "ASAYA",
+      "mm": "အသယ",
+      "code": 13,
+      "fullEn": "AhTaYa",
+      "fullMm": "အေးသာယာ"
+    },
+    {
+      "en": "HAHANA",
+      "mm": "ဟဟန",
+      "code": 13,
+      "fullEn": "HaHaNa",
+      "fullMm": "ဟဲဟိုး"
+    },
+    {
+      "en": "HAMANA",
+      "mm": "ဟမန",
+      "code": 13,
+      "fullEn": "HaMaNa",
+      "fullMm": "ဟိုမိန်း"
+    },
+    {
+      "en": "KALATHA",
+      "mm": "ကလထ",
+      "code": 13,
+      "fullEn": "KaLaHta",
+      "fullMm": "ကျိူင်းလပ်"
+    },
+    {
+      "en": "KHALANA",
+      "mm": "ခလန",
+      "code": 13,
+      "fullEn": "KaLaNa",
+      "fullMm": "ခိုလမ်"
+    },
+    {
+      "en": "MATHANA",
+      "mm": "မထန",
+      "code": 13,
+      "fullEn": "MaHtaNa",
+      "fullMm": "မော်ထိုက်"
+    },
+    {
+      "en": "MAKHATA",
+      "mm": "မခတ",
+      "code": 13,
+      "fullEn": "MaKhaTa",
+      "fullMm": "မိုင်းခုတ်"
+    },
+    {
+      "en": "MANGANA",
+      "mm": "မငန",
+      "code": 13,
+      "fullEn": "MaNgaNa",
+      "fullMm": "မိုင်းငေါ့"
+    },
+    {
+      "en": "MAPHATHA",
+      "mm": "မဖထ",
+      "code": 13,
+      "fullEn": "MaPhaHta",
+      "fullMm": "မိုင်းဖျန်"
+    },
+    {
+      "en": "NATARA",
+      "mm": "နတရ",
+      "code": 13,
+      "fullEn": "NaTaYa",
+      "fullMm": "နောင်တရား"
+    },
+    {
+      "en": "PAPAKA",
+      "mm": "ပပက",
+      "code": 13,
+      "fullEn": "PaPaKa",
+      "fullMm": "ပုံပါကျင်"
+    },
+    {
+      "en": "PAWANA",
+      "mm": "ပဝန",
+      "code": 13,
+      "fullEn": "PaWaNa",
+      "fullMm": "ပန်ဝိုင်"
+    },
+    {
+      "en": "TATANA",
+      "mm": "တတန",
+      "code": 13,
+      "fullEn": "TaTaNa",
+      "fullMm": "တုံတာ"
+    }
+  ]
+}

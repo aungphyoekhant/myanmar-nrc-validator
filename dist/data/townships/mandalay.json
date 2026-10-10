@@ -1,0 +1,329 @@
+{
+    "stateCode": "9",
+    "stateNameEn": "Mandalay Region",
+    "stateNameMm": "မန္တလေးတိုင်းဒေသကြီး",
+    "townships": [
+        {
+            "en": "DAKHASA",
+            "mm": "ဒခသ",
+            "code": 9,
+            "fullEn": "DaKhaTha",
+            "fullMm": "ဒက္ခိဏသီရိ"
+        },
+        {
+            "en": "LAWANA",
+            "mm": "လဝန",
+            "code": 9,
+            "fullEn": "LaWaNa",
+            "fullMm": "လယ်ဝေး"
+        },
+        {
+            "en": "UTASA",
+            "mm": "ဥတသ",
+            "code": 9,
+            "fullEn": "OuTaTha",
+            "fullMm": "ဥတ္တရသီရိ"
+        },
+        {
+            "en": "PABASA",
+            "mm": "ပဗသ",
+            "code": 9,
+            "fullEn": "PaBaTha",
+            "fullMm": "ပုဗ္ဗသီရိ"
+        },
+        {
+            "en": "PAMANA",
+            "mm": "ပမန",
+            "code": 9,
+            "fullEn": "PaMaNa",
+            "fullMm": "ပျဉ်းမနား"
+        },
+        {
+            "en": "TAKANA",
+            "mm": "တကန",
+            "code": 9,
+            "fullEn": "TaKaNa",
+            "fullMm": "တပ်ကုန်း"
+        },
+        {
+            "en": "ZABASA",
+            "mm": "ဇဗသ",
+            "code": 9,
+            "fullEn": "ZaBaTha",
+            "fullMm": "ဇမ္ဗူသီရိ"
+        },
+        {
+            "en": "ZAYASA",
+            "mm": "ဇယသ",
+            "code": 9,
+            "fullEn": "ZaYaTha",
+            "fullMm": "ဇေယျာသီရိ"
+        },
+        {
+            "en": "AMARA",
+            "mm": "အမရ",
+            "code": 9,
+            "fullEn": "AhMaYa",
+            "fullMm": "အမရပူရ"
+        },
+        {
+            "en": "AMAZA",
+            "mm": "အမဇ",
+            "code": 9,
+            "fullEn": "AhMaZa",
+            "fullMm": "အောင်မြေသာဇံ"
+        },
+        {
+            "en": "KHAACA",
+            "mm": "ခအစ",
+            "code": 9,
+            "fullEn": "KhaAhZa",
+            "fullMm": "ချမ်းအေးသာစည်"
+        },
+        {
+            "en": "KHAMACA",
+            "mm": "ခမစ",
+            "code": 9,
+            "fullEn": "KhaMaSa",
+            "fullMm": "ချမ်းမြသာစည်"
+        },
+        {
+            "en": "KAPATA",
+            "mm": "ကပတ",
+            "code": 9,
+            "fullEn": "KaPaTa",
+            "fullMm": "ကျောက်ပန်းတောင်း"
+        },
+        {
+            "en": "KACHANA",
+            "mm": "ကဆန",
+            "code": 9,
+            "fullEn": "KaSaNa",
+            "fullMm": "ကျောက်ဆည်"
+        },
+        {
+            "en": "MALANA",
+            "mm": "မလန",
+            "code": 9,
+            "fullEn": "MaLaNa",
+            "fullMm": "မလိူင်"
+        },
+        {
+            "en": "MAHAMA",
+            "mm": "မဟမ",
+            "code": 9,
+            "fullEn": "MaHaMa",
+            "fullMm": "မဟာအောင်မြေ"
+        },
+        {
+            "en": "MANAMA",
+            "mm": "မနမ",
+            "code": 9,
+            "fullEn": "MaNaMa",
+            "fullMm": "မန်းနောက်မြောက်"
+        },
+        {
+            "en": "MANATA",
+            "mm": "မနတ",
+            "code": 9,
+            "fullEn": "MaNaTa",
+            "fullMm": "မန်းနောက်တောင်"
+        },
+        {
+            "en": "MARAMA",
+            "mm": "မရမ",
+            "code": 9,
+            "fullEn": "MaYaMa",
+            "fullMm": "မန်းရှေ့မြောက်"
+        },
+        {
+            "en": "MARATA",
+            "mm": "မရတ",
+            "code": 9,
+            "fullEn": "MaYaTa",
+            "fullMm": "မန်းရှေ့တောင်"
+        },
+        {
+            "en": "MATARA",
+            "mm": "မတရ",
+            "code": 9,
+            "fullEn": "MaTaYa",
+            "fullMm": "မတ္တရာ"
+        },
+        {
+            "en": "MAMANA",
+            "mm": "မမန",
+            "code": 9,
+            "fullEn": "MaMaNa",
+            "fullMm": "မေမြို့"
+        },
+        {
+            "en": "MATHALA",
+            "mm": "မထလ",
+            "code": 9,
+            "fullEn": "MaHtaLa",
+            "fullMm": "မိတ္ထီလာ"
+        },
+        {
+            "en": "MAKANA",
+            "mm": "မကန",
+            "code": 9,
+            "fullEn": "MaKaNa",
+            "fullMm": "မိုးကုတ်"
+        },
+        {
+            "en": "MAKHANA",
+            "mm": "မခန",
+            "code": 9,
+            "fullEn": "MaKhaNa",
+            "fullMm": "မြင်းခြံ"
+        },
+        {
+            "en": "MASANA",
+            "mm": "မသန",
+            "code": 9,
+            "fullEn": "MaThaNa",
+            "fullMm": "မြစ်သား"
+        },
+        {
+            "en": "NATHAKA",
+            "mm": "နထက",
+            "code": 9,
+            "fullEn": "NaHtaKa",
+            "fullMm": "နွားထိုးကြီး"
+        },
+        {
+            "en": "NGASARA",
+            "mm": "ငသရ",
+            "code": 9,
+            "fullEn": "NgaTaYa",
+            "fullMm": "င့ါသရောက်"
+        },
+        {
+            "en": "NNYAUNA",
+            "mm": "ညဥန",
+            "code": 9,
+            "fullEn": "NyaOuNa",
+            "fullMm": "ညောင်ဦး"
+        },
+        {
+            "en": "PALANA",
+            "mm": "ပလန",
+            "code": 9,
+            "fullEn": "PaLaNa",
+            "fullMm": "ပုလိပ်"
+        },
+        {
+            "en": "PASAKA",
+            "mm": "ပသက",
+            "code": 9,
+            "fullEn": "PaThaKa",
+            "fullMm": "ပုသိမ်ကြီး"
+        },
+        {
+            "en": "PAPHANA",
+            "mm": "ပဖန",
+            "code": 9,
+            "fullEn": "PaBaNa",
+            "fullMm": "ပျော်ဖွယ်"
+        },
+        {
+            "en": "PAKAKHA",
+            "mm": "ပကခ",
+            "code": 9,
+            "fullEn": "PaKaKha",
+            "fullMm": "ပြည်ကြီးတံခွန်"
+        },
+        {
+            "en": "PAULA",
+            "mm": "ပဥလ",
+            "code": 9,
+            "fullEn": "PaOuLa",
+            "fullMm": "ပြင်ဦးလွင်"
+        },
+        {
+            "en": "CAKATA",
+            "mm": "စကတ",
+            "code": 9,
+            "fullEn": "SaKaTa",
+            "fullMm": "စဉ့်ကိုင်"
+        },
+        {
+            "en": "CHAKANA",
+            "mm": "ဆကန",
+            "code": 9,
+            "fullEn": "SaKaNa",
+            "fullMm": "စဉ့်ကူး"
+        },
+        {
+            "en": "TAKANA",
+            "mm": "တကန",
+            "code": 9,
+            "fullEn": "TaKaNa",
+            "fullMm": "တကောင်း"
+        },
+        {
+            "en": "TATAU",
+            "mm": "တတဥ",
+            "code": 9,
+            "fullEn": "TaTaOu",
+            "fullMm": "တံတားဦး"
+        },
+        {
+            "en": "TASANA",
+            "mm": "တသန",
+            "code": 9,
+            "fullEn": "TaThaNa",
+            "fullMm": "တောင်သာ"
+        },
+        {
+            "en": "SAPAKA",
+            "mm": "သပက",
+            "code": 9,
+            "fullEn": "ThaPaKa",
+            "fullMm": "သပိတ်ကျင်း"
+        },
+        {
+            "en": "SACANA",
+            "mm": "သစန",
+            "code": 9,
+            "fullEn": "ThaSaNa",
+            "fullMm": "သာစည်"
+        },
+        {
+            "en": "WATANA",
+            "mm": "ဝတန",
+            "code": 9,
+            "fullEn": "WaTaNa",
+            "fullMm": "ဝမ်းတွင်း"
+        },
+        {
+            "en": "RAMASA",
+            "mm": "ရမသ",
+            "code": 9,
+            "fullEn": "YaMaTha",
+            "fullMm": "ရမည်းသင်း"
+        },
+        {
+            "en": "NGAZANA",
+            "mm": "ငဇန",
+            "code": 9,
+            "fullEn": "NgaZaNa",
+            "fullMm": "ငါန်းဇွန်"
+        },
+        {
+            "en": "PABHANA",
+            "mm": "ပဘန",
+            "code": 9,
+            "fullEn": "PaBaNa",
+            "fullMm": "ပျော်ဘွယ်"
+        },
+        {
+            "en": "KHAAZA",
+            "mm": "ခအဇ",
+            "code": 9,
+            "fullEn": "KhAaHsa",
+            "fullMm": "ချမ်းအေးသာစံ"
+        }
+    ]
+}

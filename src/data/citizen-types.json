@@ -1,0 +1,10 @@
+{
+  "N": { "name": "Citizen", "mm": "နိုင်", "desc": "နိုင်ငံသား" },
+  "P": { "name": "Associate Citizen", "mm": "ပြု", "desc": "ဧည့်နိုင်ငံသား" },
+  "A": {
+    "name": "Naturalized Citizen",
+    "mm": "ဧည့်",
+    "desc": "နိုင်ငံသားပြုခွင့်ရသူ"
+  },
+  "T": { "name": "Temporary", "mm": "ယာယီ", "desc": "ယာယီ" }
+}

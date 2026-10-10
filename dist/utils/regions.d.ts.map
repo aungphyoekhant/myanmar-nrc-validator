@@ -1,0 +1,1 @@
+{"version":3,"file":"regions.d.ts","sourceRoot":"","sources":["../../src/utils/regions.ts"],"names":[],"mappings":"AAmCA,MAAM,WAAW,SAAS;IACxB,IAAI,EAAE,MAAM,CAAC;IACb,EAAE,EAAE,MAAM,CAAC;IACX,EAAE,EAAE,MAAM,CAAC;CACZ;AAED,wBAAgB,SAAS,IAAI,SAAS,EAAE,CAMvC;AAED,wBAAgB,iBAAiB,CAAC,SAAS,EAAE,MAAM,GAAG,MAAM;;;;;SAiB3D"}

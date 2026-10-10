@@ -1,0 +1,245 @@
+{
+  "stateCode": "14",
+  "stateNameEn": "Ayeyarwady Region",
+  "stateNameMm": "ဧရာဝတီတိုင်းဒေသကြီး",
+  "townships": [
+    {
+      "en": "BHAKALA",
+      "mm": "ဘကလ",
+      "code": 14,
+      "fullEn": "BaKaLa",
+      "fullMm": "ဘိုကလေး"
+    },
+    {
+      "en": "DHANAPHA",
+      "mm": "ဓနဖ",
+      "code": 14,
+      "fullEn": "DaNaPha",
+      "fullMm": "ဓနုဖြူ"
+    },
+    {
+      "en": "DADARA",
+      "mm": "ဒဒရ",
+      "code": 14,
+      "fullEn": "DaDaYa",
+      "fullMm": "ဒေးဒရဲ"
+    },
+    {
+      "en": "PASARA",
+      "mm": "ပသရ",
+      "code": 14,
+      "fullEn": "PaThaYa",
+      "fullMm": "ပုသိမ်(အရှေ့)"
+    },
+    {
+      "en": "AMANA",
+      "mm": "အမန",
+      "code": 14,
+      "fullEn": "AhMaNa",
+      "fullMm": "အိမ်မဲ"
+    },
+    {
+      "en": "HAKAKA",
+      "mm": "ဟကက",
+      "code": 14,
+      "fullEn": "HaKaKa",
+      "fullMm": "ဟိုင်းကြီးကျွန်း"
+    },
+    {
+      "en": "HASATA",
+      "mm": "ဟသတ",
+      "code": 14,
+      "fullEn": "HaThaTa",
+      "fullMm": "ဟင်္သာတ"
+    },
+    {
+      "en": "AGAPA",
+      "mm": "အဂပ",
+      "code": 14,
+      "fullEn": "AhGaPa",
+      "fullMm": "အင်္ဂပူ"
+    },
+    {
+      "en": "KHANANA",
+      "mm": "ခနန",
+      "code": 14,
+      "fullEn": "KaNaNa",
+      "fullMm": "ခနောင်"
+    },
+    {
+      "en": "KALANA",
+      "mm": "ကလန",
+      "code": 14,
+      "fullEn": "KaLaNa",
+      "fullMm": "ကျိုက်လတ်"
+    },
+    {
+      "en": "KAKHANA",
+      "mm": "ကခန",
+      "code": 14,
+      "fullEn": "KaKhaNa",
+      "fullMm": "ကြံခင်း"
+    },
+    {
+      "en": "KAKANA",
+      "mm": "ကကန",
+      "code": 14,
+      "fullEn": "KaKaNa",
+      "fullMm": "ကျောင်းကုန်း"
+    },
+    {
+      "en": "KAPANA",
+      "mm": "ကပန",
+      "code": 14,
+      "fullEn": "KaPaNa",
+      "fullMm": "ကျုံပျော်"
+    },
+    {
+      "en": "LAPATA",
+      "mm": "လပတ",
+      "code": 14,
+      "fullEn": "LaPaTa",
+      "fullMm": "လပွတ္တာ"
+    },
+    {
+      "en": "LAMANA",
+      "mm": "လမန",
+      "code": 14,
+      "fullEn": "LaMaNa",
+      "fullMm": "လေးမျက်နှာ"
+    },
+    {
+      "en": "MAAPA",
+      "mm": "မအပ",
+      "code": 14,
+      "fullEn": "MaAhPa",
+      "fullMm": "မအူပင်"
+    },
+    {
+      "en": "MAMAKA",
+      "mm": "မမက",
+      "code": 14,
+      "fullEn": "MaMaKa",
+      "fullMm": "မော်လမြိုင်ကျွန်း"
+    },
+    {
+      "en": "MAANA",
+      "mm": "မအန",
+      "code": 14,
+      "fullEn": "MaAhaNa",
+      "fullMm": "မြန်အောင်"
+    },
+    {
+      "en": "MAMANA",
+      "mm": "မမန",
+      "code": 14,
+      "fullEn": "MaMaNa",
+      "fullMm": "မြောင်းမြ"
+    },
+    {
+      "en": "NGAPATA",
+      "mm": "ငပတ",
+      "code": 14,
+      "fullEn": "NgaPaTa",
+      "fullMm": "ငပုတော"
+    },
+    {
+      "en": "NGASAKHA",
+      "mm": "ငသခ",
+      "code": 14,
+      "fullEn": "NgaThaKha",
+      "fullMm": "ငါးသိုင်းချောင်း"
+    },
+    {
+      "en": "NNYATANA",
+      "mm": "ညတန",
+      "code": 14,
+      "fullEn": "NyaTaNa",
+      "fullMm": "ညောင်တုန်း"
+    },
+    {
+      "en": "PATANA",
+      "mm": "ပတန",
+      "code": 14,
+      "fullEn": "PaTaNa",
+      "fullMm": "ပန်းတနော်"
+    },
+    {
+      "en": "PHAPANA",
+      "mm": "ဖပန",
+      "code": 14,
+      "fullEn": "PhaPaNa",
+      "fullMm": "ဖျာပုံ"
+    },
+    {
+      "en": "SAPANA",
+      "mm": "သပန",
+      "code": 14,
+      "fullEn": "ThaPaNa",
+      "fullMm": "သာပေါင်း"
+    },
+    {
+      "en": "WAKHAMA",
+      "mm": "ဝခမ",
+      "code": 14,
+      "fullEn": "WaKhaMa",
+      "fullMm": "ဝါးခယ်မ"
+    },
+    {
+      "en": "PASANA",
+      "mm": "ပသန",
+      "code": 14,
+      "fullEn": "PaThaNa",
+      "fullMm": "ပုသိမ်(အနောက်)"
+    },
+    {
+      "en": "RAKANA",
+      "mm": "ရကန",
+      "code": 14,
+      "fullEn": "YaKaNa",
+      "fullMm": "ရေကြည်"
+    },
+    {
+      "en": "ZALANA",
+      "mm": "ဇလန",
+      "code": 14,
+      "fullEn": "ZaLaNa",
+      "fullMm": "ဇလွန်"
+    },
+    {
+      "en": "KAKATHA",
+      "mm": "ကကထ",
+      "code": 14,
+      "fullEn": "KaKaHta",
+      "fullMm": "ကန်ကြီးထောင့်"
+    },
+    {
+      "en": "AMATA",
+      "mm": "အမတ",
+      "code": 14,
+      "fullEn": "AhMaTa",
+      "fullMm": "အမာ"
+    },
+    {
+      "en": "NGARAKA",
+      "mm": "ငရက",
+      "code": 14,
+      "fullEn": "NgaYaKa",
+      "fullMm": "ငရုတ်ကောင်း"
+    },
+    {
+      "en": "PACALA",
+      "mm": "ပစလ",
+      "code": 14,
+      "fullEn": "PaSaLa",
+      "fullMm": "ပြင်စလူ"
+    },
+    {
+      "en": "RASAYA",
+      "mm": "ရသယ",
+      "code": 14,
+      "fullEn": "YaThaYa",
+      "fullMm": "ရွှေသောင်ယံ"
+    }
+  ]
+}

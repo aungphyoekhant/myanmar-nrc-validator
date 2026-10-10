@@ -1,0 +1,140 @@
+{
+  "stateCode": "6",
+  "stateNameEn": "Tanintharyi Region",
+  "stateNameMm": "တနင်္သာရီတိုင်းဒေသကြီး",
+  "townships": [
+    {
+      "en": "BHAPANA",
+      "mm": "ဘပန",
+      "code": 6,
+      "fullEn": "BaPaNa",
+      "fullMm": "ဘုတ်ပြင်း"
+    },
+    {
+      "en": "THAWANA",
+      "mm": "ထဝန",
+      "code": 6,
+      "fullEn": "HtaWaNa",
+      "fullMm": "ထားဝယ်"
+    },
+    {
+      "en": "KASANA",
+      "mm": "ကသန",
+      "code": 6,
+      "fullEn": "KaThaNa",
+      "fullMm": "ကော့သောင်း"
+    },
+    {
+      "en": "KACANA",
+      "mm": "ကစန",
+      "code": 6,
+      "fullEn": "KaSaNa",
+      "fullMm": "ကျွန်းစု"
+    },
+    {
+      "en": "LALANA",
+      "mm": "လလန",
+      "code": 6,
+      "fullEn": "LaLaNa",
+      "fullMm": "လောင်းလုံ"
+    },
+    {
+      "en": "MAMANA",
+      "mm": "မမန",
+      "code": 6,
+      "fullEn": "MaMaNa",
+      "fullMm": "မြိတ်"
+    },
+    {
+      "en": "MAARA",
+      "mm": "မအရ",
+      "code": 6,
+      "fullEn": "MaAhYa",
+      "fullMm": "မြိတ်အရှေ့"
+    },
+    {
+      "en": "NGARAKA",
+      "mm": "ငရက",
+      "code": 6,
+      "fullEn": "NgaYaKa",
+      "fullMm": "ငရုတ်ကောင်း"
+    },
+    {
+      "en": "PALANA",
+      "mm": "ပလန",
+      "code": 6,
+      "fullEn": "PaLaNa",
+      "fullMm": "ပုလော"
+    },
+    {
+      "en": "TANASA",
+      "mm": "တနသ",
+      "code": 6,
+      "fullEn": "TaNaTha",
+      "fullMm": "တနသာၤရီ"
+    },
+    {
+      "en": "TASARA",
+      "mm": "တသရ",
+      "code": 6,
+      "fullEn": "TaThaYa",
+      "fullMm": "တနသာၤရီ"
+    },
+    {
+      "en": "SARAKHA",
+      "mm": "သရခ",
+      "code": 6,
+      "fullEn": "ThaYaKha",
+      "fullMm": "သရက်ချောင်း"
+    },
+    {
+      "en": "RAPHANA",
+      "mm": "ရဖန",
+      "code": 6,
+      "fullEn": "YaPhaNa",
+      "fullMm": "ရေဖြူ"
+    },
+    {
+      "en": "KHAMAKA",
+      "mm": "ခမက",
+      "code": 6,
+      "fullEn": "KhaMaKa",
+      "fullMm": "(ခမောက်ကြီး"
+    },
+    {
+      "en": "KALAA",
+      "mm": "ကလအ",
+      "code": 6,
+      "fullEn": "KaLaAh",
+      "fullMm": "ကလိန်အောင်"
+    },
+    {
+      "en": "KARARA",
+      "mm": "ကရရ",
+      "code": 6,
+      "fullEn": "KaYaYa",
+      "fullMm": "ကရသူရိ"
+    },
+    {
+      "en": "MAANA",
+      "mm": "မအန",
+      "code": 6,
+      "fullEn": "MaAhNa",
+      "fullMm": "မြိတ်အနောက်"
+    },
+    {
+      "en": "PAKAMA",
+      "mm": "ပကမ",
+      "code": 6,
+      "fullEn": "PaKaMa",
+      "fullMm": "ပြည်ကြီးမဏ္ဍိုင်"
+    },
+    {
+      "en": "PALATA",
+      "mm": "ပလတ",
+      "code": 6,
+      "fullEn": "PaLaTa",
+      "fullMm": "ပလောက်"
+    }
+  ]
+}

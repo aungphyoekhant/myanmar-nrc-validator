@@ -1,0 +1,147 @@
+{
+  "stateCode": "11",
+  "stateNameEn": "Rakhine State",
+  "stateNameMm": "ရခိုင်ပြည်နယ်",
+  "townships": [
+    {
+      "en": "AMANA",
+      "mm": "အမန",
+      "code": 11,
+      "fullEn": "AaMaNa",
+      "fullMm": "အမ်း"
+    },
+    {
+      "en": "BHASATA",
+      "mm": "ဘသတ",
+      "code": 11,
+      "fullEn": "BaThaTa",
+      "fullMm": "ဘူးသီးတောင်"
+    },
+    {
+      "en": "GAMANA",
+      "mm": "ဂမန",
+      "code": 11,
+      "fullEn": "GaMaNa",
+      "fullMm": "ဂွ"
+    },
+    {
+      "en": "KAPHANA",
+      "mm": "ကဖန",
+      "code": 11,
+      "fullEn": "KaPhaNa",
+      "fullMm": "ကျောက်ဖြူ"
+    },
+    {
+      "en": "KATANA",
+      "mm": "ကတန",
+      "code": 11,
+      "fullEn": "KaTaNa",
+      "fullMm": "ကျောက်တော်"
+    },
+    {
+      "en": "MAANA",
+      "mm": "မအန",
+      "code": 11,
+      "fullEn": "MaAhNa",
+      "fullMm": "မာန်အောင်"
+    },
+    {
+      "en": "MATANA",
+      "mm": "မတန",
+      "code": 11,
+      "fullEn": "MaTaNa",
+      "fullMm": "မောင်းတော"
+    },
+    {
+      "en": "MAPANA",
+      "mm": "မပန",
+      "code": 11,
+      "fullEn": "MaPaNa",
+      "fullMm": "မင်းပြား"
+    },
+    {
+      "en": "MAUNA",
+      "mm": "မဥန",
+      "code": 11,
+      "fullEn": "MaOuNa",
+      "fullMm": "မြောက်ဦး"
+    },
+    {
+      "en": "MAPATA",
+      "mm": "မပတ",
+      "code": 11,
+      "fullEn": "MaPaTa",
+      "fullMm": "မြေပုံ"
+    },
+    {
+      "en": "PATANA",
+      "mm": "ပတန",
+      "code": 11,
+      "fullEn": "PaTaNa",
+      "fullMm": "ပေါက်တော"
+    },
+    {
+      "en": "PANNAKA",
+      "mm": "ပဏက",
+      "code": 11,
+      "fullEn": "PaNaKa",
+      "fullMm": "ပုဏ္ဏကျွန်း"
+    },
+    {
+      "en": "CATANA",
+      "mm": "စတန",
+      "code": 11,
+      "fullEn": "SaTaNa",
+      "fullMm": "စစ်တွေ"
+    },
+    {
+      "en": "TAKANA",
+      "mm": "တကန",
+      "code": 11,
+      "fullEn": "TaKaNa",
+      "fullMm": "တောင်ကုတ်"
+    },
+    {
+      "en": "SATANA",
+      "mm": "သတန",
+      "code": 11,
+      "fullEn": "ThaTaNa",
+      "fullMm": "သံတွဲ"
+    },
+    {
+      "en": "RABANA",
+      "mm": "ရဗန",
+      "code": 11,
+      "fullEn": "YaBaNa",
+      "fullMm": "ရမ်းဗြဲ"
+    },
+    {
+      "en": "RASATA",
+      "mm": "ရသတ",
+      "code": 11,
+      "fullEn": "YaThaTa",
+      "fullMm": "ရသေ့တောင်"
+    },
+    {
+      "en": "KATALA",
+      "mm": "ကတလ",
+      "code": 11,
+      "fullEn": "KaTaLa",
+      "fullMm": "ကျိန္တလီ"
+    },
+    {
+      "en": "MAATA",
+      "mm": "မအတ",
+      "code": 11,
+      "fullEn": "MaAhTa",
+      "fullMm": "မအီ"
+    },
+    {
+      "en": "TAPAWA",
+      "mm": "တပဝ",
+      "code": 11,
+      "fullEn": "TaPaWa",
+      "fullMm": "တောင်ပြိုလက်ဝဲ"
+    }
+  ]
+}

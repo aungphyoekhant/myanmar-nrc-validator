@@ -1,0 +1,217 @@
+{
+    "stateCode": "1",
+    "stateNameEn": "Kachin State",
+    "stateNameMm": "ကချင်ပြည်နယ်",
+    "townships": [
+        {
+            "en": "AGAYA",
+            "mm": "အဂယ",
+            "code": 1,
+            "fullEn": "AhGaYa",
+            "fullMm": "အင်ဂျန်းယန်"
+        },
+        {
+            "en": "BAMANA",
+            "mm": "ဗမန",
+            "code": 1,
+            "fullEn": "BaMaNa",
+            "fullMm": "ဗန်းမော်"
+        },
+        {
+            "en": "KHAPHANA",
+            "mm": "ခဖန",
+            "code": 1,
+            "fullEn": "KhaPhaNa",
+            "fullMm": "ချီဖွေ"
+        },
+        {
+            "en": "DAPHAYA",
+            "mm": "ဒဖယ",
+            "code": 1,
+            "fullEn": "DaPhaYa",
+            "fullMm": "ဒေါ့ဖုန်းယန်"
+        },
+        {
+            "en": "HAPANA",
+            "mm": "ဟပန",
+            "code": 1,
+            "fullEn": "HaPaNa",
+            "fullMm": "ဟိုပင်"
+        },
+        {
+            "en": "KAMANA",
+            "mm": "ကမန",
+            "code": 1,
+            "fullEn": "KaMaNa",
+            "fullMm": "ကာမီ"
+        },
+        {
+            "en": "KHALAPHA",
+            "mm": "ခလဖ",
+            "code": 1,
+            "fullEn": "KhaLaPha",
+            "fullMm": "ခေါင်လန်ဖူး"
+        },
+        {
+            "en": "LAGANA",
+            "mm": "လဂန",
+            "code": 1,
+            "fullEn": "LaGaNa",
+            "fullMm": "လွယ်ဂျယ်"
+        },
+        {
+            "en": "MAKHABHA",
+            "mm": "မခဘ",
+            "code": 1,
+            "fullEn": "MaKhaBa",
+            "fullMm": "မချမ်းဘော"
+        },
+        {
+            "en": "MACANA",
+            "mm": "မစန",
+            "code": 1,
+            "fullEn": "MaSaNa",
+            "fullMm": "မံစီ"
+        },
+        {
+            "en": "MANNYANA",
+            "mm": "မညန",
+            "code": 1,
+            "fullEn": "MaNyaNa",
+            "fullMm": "မိုးညင်း"
+        },
+        {
+            "en": "MAKATA",
+            "mm": "မကတ",
+            "code": 1,
+            "fullEn": "MaKaTa",
+            "fullMm": "မိုးကောင်း"
+        },
+        {
+            "en": "MAMANA",
+            "mm": "မမန",
+            "code": 1,
+            "fullEn": "MaMaNa",
+            "fullMm": "မိုးမောက်"
+        },
+        {
+            "en": "MAKANA",
+            "mm": "မကန",
+            "code": 1,
+            "fullEn": "MaKaNa",
+            "fullMm": "မြစ်ကြီးနား"
+        },
+        {
+            "en": "NAMANA",
+            "mm": "နမန",
+            "code": 1,
+            "fullEn": "NaMaNa",
+            "fullMm": "နောင်မွန်း"
+        },
+        {
+            "en": "PHAKANA",
+            "mm": "ဖကန",
+            "code": 1,
+            "fullEn": "PhaKaNa",
+            "fullMm": "ဖားကန့်"
+        },
+        {
+            "en": "PATAA",
+            "mm": "ပတအ",
+            "code": 1,
+            "fullEn": "PaTaAh",
+            "fullMm": "ပူတာအို"
+        },
+        {
+            "en": "RAKANA",
+            "mm": "ရကန",
+            "code": 1,
+            "fullEn": "YaKaNa",
+            "fullMm": "ရွှေကူ"
+        },
+        {
+            "en": "CHABHANA",
+            "mm": "ဆဘန",
+            "code": 1,
+            "fullEn": "SaBaNa",
+            "fullMm": "ဆင်ဘို"
+        },
+        {
+            "en": "CHALANA",
+            "mm": "ဆလန",
+            "code": 1,
+            "fullEn": "SaLaNa",
+            "fullMm": "ဆော့လော"
+        },
+        {
+            "en": "CHAPABHA",
+            "mm": "ဆပဘ",
+            "code": 1,
+            "fullEn": "SaPaBa",
+            "fullMm": "ဆွမ်ပရာဘွမ်"
+        },
+        {
+            "en": "TANANA",
+            "mm": "တနန",
+            "code": 1,
+            "fullEn": "TaNaNa",
+            "fullMm": "တနိုင်း"
+        },
+        {
+            "en": "WAMANA",
+            "mm": "ဝမန",
+            "code": 1,
+            "fullEn": "WaMaNa",
+            "fullMm": "ဝင်းမော်"
+        },
+        {
+            "en": "KAMATA",
+            "mm": "ကမတ",
+            "code": 1,
+            "fullEn": "KaMaTa",
+            "fullMm": "ကာမိုင်း"
+        },
+        {
+            "en": "KAPATA",
+            "mm": "ကပတ",
+            "code": 1,
+            "fullEn": "KaPaTa",
+            "fullMm": "ကန်ပိုက်တီ"
+        },
+        {
+            "en": "MALANA",
+            "mm": "မလန",
+            "code": 1,
+            "fullEn": "MaLaNa",
+            "fullMm": "မြို့လှ"
+        },
+        {
+            "en": "PANADA",
+            "mm": "ပနဒ",
+            "code": 1,
+            "fullEn": "PaNaDa",
+            "fullMm": "ပန်နန်းဒင်"
+        },
+        {
+            "en": "PAWANA",
+            "mm": "ပဝန",
+            "code": 1,
+            "fullEn": "PaWaNa",
+            "fullMm": "ပန်ဝါ"
+        },
+        {
+            "en": "CHADANA",
+            "mm": "ဆဒန",
+            "code": 1,
+            "fullEn": "SaDaNa",
+            "fullMm": "ဆဒုံး"
+        },
+        {
+            "en": "RABHAYA",
+            "mm": "ရဘယ",
+            "code": 1,
+            "fullEn": "YaBaYa",
+            "fullMm": "ရှင်ဘွေယန်"
+        }
+    ]
+}

@@ -1,0 +1,98 @@
+{
+    "stateCode": "4",
+    "stateNameEn": "Chin State",
+    "stateNameMm": "ချင်းပြည်နယ်",
+    "townships": [
+        {
+            "en": "HAKHANA",
+            "mm": "ဟခန",
+            "code": 4,
+            "fullEn": "HaKhaNa",
+            "fullMm": "ဟားခါး"
+        },
+        {
+            "en": "THATALA",
+            "mm": "ထတလ",
+            "code": 4,
+            "fullEn": "HtaTaLa",
+            "fullMm": "ထန်တလန်"
+        },
+        {
+            "en": "KAPALA",
+            "mm": "ကပလ",
+            "code": 4,
+            "fullEn": "KaPaLa",
+            "fullMm": "ကန်ပက်လက်"
+        },
+        {
+            "en": "MATAPA",
+            "mm": "မတပ",
+            "code": 4,
+            "fullEn": "MaTaPa",
+            "fullMm": "မတူပီ"
+        },
+        {
+            "en": "MATANA",
+            "mm": "မတန",
+            "code": 4,
+            "fullEn": "MaTaNa",
+            "fullMm": "မင်းတပ်"
+        },
+        {
+            "en": "PHALANA",
+            "mm": "ဖလန",
+            "code": 4,
+            "fullEn": "PhaLaNa",
+            "fullMm": "ဖလမ်း"
+        },
+        {
+            "en": "PALAWA",
+            "mm": "ပလဝ",
+            "code": 4,
+            "fullEn": "PaLaWa",
+            "fullMm": "ပလက်ဝ"
+        },
+        {
+            "en": "TATANA",
+            "mm": "တတန",
+            "code": 4,
+            "fullEn": "TaTaNa",
+            "fullMm": "တီးတိန်"
+        },
+        {
+            "en": "TAZANA",
+            "mm": "တဇန",
+            "code": 4,
+            "fullEn": "TaZaNa",
+            "fullMm": "တွန်းဇံ"
+        },
+        {
+            "en": "KAKHANA",
+            "mm": "ကခန",
+            "code": 4,
+            "fullEn": "KaKhaNa",
+            "fullMm": "ကျီခါး"
+        },
+        {
+            "en": "CHAMANA",
+            "mm": "ဆမန",
+            "code": 4,
+            "fullEn": "SaMaNa",
+            "fullMm": "ဆမီး"
+        },
+        {
+            "en": "RAKHADA",
+            "mm": "ရခဒ",
+            "code": 4,
+            "fullEn": "YaKhaDa",
+            "fullMm": "ရိဒ်ခေါဒါရ်"
+        },
+        {
+            "en": "RAZANA",
+            "mm": "ရဇန",
+            "code": 4,
+            "fullEn": "YaZaNa",
+            "fullMm": "ရေဇွာ"
+        }
+    ]
+}

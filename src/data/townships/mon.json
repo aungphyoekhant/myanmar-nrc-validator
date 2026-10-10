@@ -1,0 +1,98 @@
+{
+  "stateCode": "10",
+  "stateNameEn": "Mon State",
+  "stateNameMm": "မွန်ပြည်နယ်",
+  "townships": [
+    {
+      "en": "BHALANA",
+      "mm": "ဘလန",
+      "code": 10,
+      "fullEn": "BaLaNa",
+      "fullMm": "ဘီးလင်း"
+    },
+    {
+      "en": "KHACHANA",
+      "mm": "ခဆန",
+      "code": 10,
+      "fullEn": "KhaSaNa",
+      "fullMm": "ချောင်းဆုံ"
+    },
+    {
+      "en": "KAMARA",
+      "mm": "ကမရ",
+      "code": 10,
+      "fullEn": "KaMaYa",
+      "fullMm": "ကျိုက်မရော"
+    },
+    {
+      "en": "KATHANA",
+      "mm": "ကထန",
+      "code": 10,
+      "fullEn": "KaHtaNa",
+      "fullMm": "ကျိုက်ထို"
+    },
+    {
+      "en": "MALAMA",
+      "mm": "မလမ",
+      "code": 10,
+      "fullEn": "MaLaMa",
+      "fullMm": "မော်လမြိုင်"
+    },
+    {
+      "en": "MADANA",
+      "mm": "မဒန",
+      "code": 10,
+      "fullEn": "MaDaNa",
+      "fullMm": "မုဒုံ"
+    },
+    {
+      "en": "PAMANA",
+      "mm": "ပမန",
+      "code": 10,
+      "fullEn": "PaMaNa",
+      "fullMm": "ပေါင်"
+    },
+    {
+      "en": "SAPHARA",
+      "mm": "သဖရ",
+      "code": 10,
+      "fullEn": "ThaPhaYa",
+      "fullMm": "သံဖြူဇရပ်"
+    },
+    {
+      "en": "SATHANA",
+      "mm": "သထန",
+      "code": 10,
+      "fullEn": "ThaHtaNa",
+      "fullMm": "သထုံ"
+    },
+    {
+      "en": "KHAZANA",
+      "mm": "ခဇန",
+      "code": 10,
+      "fullEn": "KhaZaNa",
+      "fullMm": "ခေါဇာ"
+    },
+    {
+      "en": "LAMANA",
+      "mm": "လမန",
+      "code": 10,
+      "fullEn": "LaMaNa",
+      "fullMm": "လမိုင်း"
+    },
+    {
+      "en": "RAMANA",
+      "mm": "ရမန",
+      "code": 10,
+      "fullEn": "YaMaNa",
+      "fullMm": "ရေး"
+    },
+    {
+      "en": "KAKHAMA",
+      "mm": "ကခမ",
+      "code": 10,
+      "fullEn": "KaKhaMa",
+      "fullMm": "ကျိုက္ခမီ"
+    }
+  ]
+}

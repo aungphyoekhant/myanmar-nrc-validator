@@ -1,0 +1,203 @@
+{
+  "stateCode": "8",
+  "stateNameEn": "Magway Region",
+  "stateNameMm": "မကွေးတိုင်းဒေသကြီး",
+  "townships": [
+    {
+      "en": "ALANA",
+      "mm": "အလန",
+      "code": 8,
+      "fullEn": "AhLaNa",
+      "fullMm": "အောင်လံ"
+    },
+    {
+      "en": "KHAMANA",
+      "mm": "ခမန",
+      "code": 8,
+      "fullEn": "KhaMaNa",
+      "fullMm": "ချောက်"
+    },
+    {
+      "en": "GAGANA",
+      "mm": "ဂဂန",
+      "code": 8,
+      "fullEn": "GaGaNa",
+      "fullMm": "ဂန့်ဂေါ"
+    },
+    {
+      "en": "CHAPHANA",
+      "mm": "ဆဖန",
+      "code": 8,
+      "fullEn": "SaPhaNa",
+      "fullMm": "ဆိပ်ဖြူ"
+    },
+    {
+      "en": "CHAPAWA",
+      "mm": "ဆပဝ",
+      "code": 8,
+      "fullEn": "SaPaWa",
+      "fullMm": "ဆင်ပေါင်ဝဲ"
+    },
+    {
+      "en": "THALANA",
+      "mm": "ထလန",
+      "code": 8,
+      "fullEn": "HtaLaNa",
+      "fullMm": "ထီးလင်း"
+    },
+    {
+      "en": "KAMANA",
+      "mm": "ကမန",
+      "code": 8,
+      "fullEn": "KaMaNa",
+      "fullMm": "ကံမ"
+    },
+    {
+      "en": "MAKANA",
+      "mm": "မကန",
+      "code": 8,
+      "fullEn": "MaKaNa",
+      "fullMm": "မကွေး"
+    },
+    {
+      "en": "MABHANA",
+      "mm": "မဘန",
+      "code": 8,
+      "fullEn": "MaBaNa",
+      "fullMm": "မင်းဘူး"
+    },
+    {
+      "en": "MALANA",
+      "mm": "မလန",
+      "code": 8,
+      "fullEn": "MaLaNa",
+      "fullMm": "မင်းလှ"
+    },
+    {
+      "en": "MATANA",
+      "mm": "မတန",
+      "code": 8,
+      "fullEn": "MaTaNa",
+      "fullMm": "မင်းတုန်း"
+    },
+    {
+      "en": "MAMANA",
+      "mm": "မမန",
+      "code": 8,
+      "fullEn": "MaMaNa",
+      "fullMm": "မြိုင်"
+    },
+    {
+      "en": "MATHANA",
+      "mm": "မထန",
+      "code": 8,
+      "fullEn": "MaHtaNa",
+      "fullMm": "မြေထဲ"
+    },
+    {
+      "en": "MASANA",
+      "mm": "မသန",
+      "code": 8,
+      "fullEn": "MaThaNa",
+      "fullMm": "မြို့သစ်"
+    },
+    {
+      "en": "NAMANA",
+      "mm": "နမန",
+      "code": 8,
+      "fullEn": "NaMaNa",
+      "fullMm": "နတ်မောက်"
+    },
+    {
+      "en": "NGAPHANA",
+      "mm": "ငဖန",
+      "code": 8,
+      "fullEn": "NgaPhaNa",
+      "fullMm": "ငါးဖယ်"
+    },
+    {
+      "en": "PAKHAKA",
+      "mm": "ပခက",
+      "code": 8,
+      "fullEn": "PaKhaKa",
+      "fullMm": "ပခုက္ကူ"
+    },
+    {
+      "en": "PAMANA",
+      "mm": "ပမန",
+      "code": 8,
+      "fullEn": "PaMaNa",
+      "fullMm": "ပေါက်"
+    },
+    {
+      "en": "PAPHANA",
+      "mm": "ပဖန",
+      "code": 8,
+      "fullEn": "PaPhaNa",
+      "fullMm": "ပွင့်ဖြူ"
+    },
+    {
+      "en": "CALANA",
+      "mm": "စလန",
+      "code": 8,
+      "fullEn": "SaLaNa",
+      "fullMm": "စလင်း"
+    },
+    {
+      "en": "CATARA",
+      "mm": "စတရ",
+      "code": 8,
+      "fullEn": "SaTaYa",
+      "fullMm": "စေတုတ္တရာ"
+    },
+    {
+      "en": "CAKANA",
+      "mm": "စကန",
+      "code": 8,
+      "fullEn": "SaKaNa",
+      "fullMm": "စကု"
+    },
+    {
+      "en": "TATAKA",
+      "mm": "တတက",
+      "code": 8,
+      "fullEn": "TaTaKa",
+      "fullMm": "တောင်တွင်းကြီး"
+    },
+    {
+      "en": "SARANA",
+      "mm": "သရန",
+      "code": 8,
+      "fullEn": "ThaYaNa",
+      "fullMm": "သရက်"
+    },
+    {
+      "en": "CHAMANA",
+      "mm": "ဆမန",
+      "code": 8,
+      "fullEn": "SaMaNa",
+      "fullMm": "ဆော"
+    },
+    {
+      "en": "RANAKHA",
+      "mm": "ရနခ",
+      "code": 8,
+      "fullEn": "YaNaKha",
+      "fullMm": "ရေနံချောင်း"
+    },
+    {
+      "en": "RACAKA",
+      "mm": "ရစက",
+      "code": 8,
+      "fullEn": "YaSaKa",
+      "fullMm": "ရေစကြို"
+    },
+    {
+      "en": "KATHANA",
+      "mm": "ကထန",
+      "code": 8,
+      "fullEn": "KaHtaNa",
+      "fullMm": "ကျောက်ထု"
+    }
+  ]
+}

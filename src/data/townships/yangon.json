@@ -1,0 +1,336 @@
+{
+  "stateCode": "12",
+  "stateNameEn": "Yangon Region",
+  "stateNameMm": "ရန်ကုန်တိုင်းဒေသကြီး",
+  "townships": [
+    {
+      "en": "ALANA",
+      "mm": "အလန",
+      "code": 12,
+      "fullEn": "AaLaNa",
+      "fullMm": "အလုံ"
+    },
+    {
+      "en": "BAHANA",
+      "mm": "ဗဟန",
+      "code": 12,
+      "fullEn": "BaHaNa",
+      "fullMm": "ဗဟန်း"
+    },
+    {
+      "en": "BATATHA",
+      "mm": "ဗတထ",
+      "code": 12,
+      "fullEn": "BaTaHta",
+      "fullMm": "ဗိုလ်တထောင်"
+    },
+    {
+      "en": "KAKAKA",
+      "mm": "ကကက",
+      "code": 12,
+      "fullEn": "KaKaKa",
+      "fullMm": "ကိုကိုးကျွန်း"
+    },
+    {
+      "en": "DAGANA",
+      "mm": "ဒဂန",
+      "code": 12,
+      "fullEn": "DaGaNa",
+      "fullMm": "ဒဂုံ"
+    },
+    {
+      "en": "DAGARA",
+      "mm": "ဒဂရ",
+      "code": 12,
+      "fullEn": "DaGaYa",
+      "fullMm": "ဒဂုံမြို့သစ်(အရှေ့ပိုင်း)"
+    },
+    {
+      "en": "DAGAMA",
+      "mm": "ဒဂမ",
+      "code": 12,
+      "fullEn": "DaGaMa",
+      "fullMm": "ဒဂုံမြို့သစ်(မြောက်ပိုင်း)"
+    },
+    {
+      "en": "DACHAKA",
+      "mm": "ဒဆက",
+      "code": 12,
+      "fullEn": "DaSaKa",
+      "fullMm": "ဒဂုံမြို့သစ်ဆိပ်ကမ်း"
+    },
+    {
+      "en": "DAGATA",
+      "mm": "ဒဂတ",
+      "code": 12,
+      "fullEn": "DaGaTa",
+      "fullMm": "ဒဂုံမြို့သစ်(တောင်ပိုင်း)"
+    },
+    {
+      "en": "DALANA",
+      "mm": "ဒလန",
+      "code": 12,
+      "fullEn": "DaLaNa",
+      "fullMm": "ဒလ"
+    },
+    {
+      "en": "DAPANA",
+      "mm": "ဒပန",
+      "code": 12,
+      "fullEn": "DaPaNa",
+      "fullMm": "ဒေါပုံ"
+    },
+    {
+      "en": "LAMANA",
+      "mm": "လမန",
+      "code": 12,
+      "fullEn": "LaMaNa",
+      "fullMm": "လှိုင်"
+    },
+    {
+      "en": "LASAYA",
+      "mm": "လသယ",
+      "code": 12,
+      "fullEn": "LaThaYa",
+      "fullMm": "လှိုင်သာယာ"
+    },
+    {
+      "en": "LAKANA",
+      "mm": "လကန",
+      "code": 12,
+      "fullEn": "LaKaNa",
+      "fullMm": "လှည်းကူး"
+    },
+    {
+      "en": "MABHANA",
+      "mm": "မဘန",
+      "code": 12,
+      "fullEn": "MaBaNa",
+      "fullMm": "မှော်ဘီ"
+    },
+    {
+      "en": "THATAPA",
+      "mm": "ထတပ",
+      "code": 12,
+      "fullEn": "HtaTaPa",
+      "fullMm": "ထန်းတပင်"
+    },
+    {
+      "en": "ACANA",
+      "mm": "အစန",
+      "code": 12,
+      "fullEn": "AhSaNa",
+      "fullMm": "အင်းစိန်"
+    },
+    {
+      "en": "KAMARA",
+      "mm": "ကမရ",
+      "code": 12,
+      "fullEn": "KaMaYa",
+      "fullMm": "ကမာရွတ်"
+    },
+    {
+      "en": "KAMANA",
+      "mm": "ကမန",
+      "code": 12,
+      "fullEn": "KaMaNa",
+      "fullMm": "ကော့မှုုး"
+    },
+    {
+      "en": "KHARANA",
+      "mm": "ခရန",
+      "code": 12,
+      "fullEn": "KhaYaNa",
+      "fullMm": "ခရမ်း"
+    },
+    {
+      "en": "KAKHAKA",
+      "mm": "ကခက",
+      "code": 12,
+      "fullEn": "KaKhaKa",
+      "fullMm": "ကွမ်းခြံကုန်း"
+    },
+    {
+      "en": "KATATA",
+      "mm": "ကတတ",
+      "code": 12,
+      "fullEn": "KaTaTa",
+      "fullMm": "ကျောက်တံတား"
+    },
+    {
+      "en": "KATANA",
+      "mm": "ကတန",
+      "code": 12,
+      "fullEn": "KaTaNa",
+      "fullMm": "ကျောက်တန်း"
+    },
+    {
+      "en": "KAMATA",
+      "mm": "ကမတ",
+      "code": 12,
+      "fullEn": "KaMaTa",
+      "fullMm": "ကြည့်မြင်တိုင်"
+    },
+    {
+      "en": "LAMATA",
+      "mm": "လမတ",
+      "code": 12,
+      "fullEn": "LaMata",
+      "fullMm": "လမ်းမတော်"
+    },
+    {
+      "en": "LASANA",
+      "mm": "လသန",
+      "code": 12,
+      "fullEn": "LaThaNa",
+      "fullMm": "လသာ"
+    },
+    {
+      "en": "MARAKA",
+      "mm": "မရက",
+      "code": 12,
+      "fullEn": "MaYaKa",
+      "fullMm": "မရမ်းကုန်း"
+    },
+    {
+      "en": "MAGATA",
+      "mm": "မဂတ",
+      "code": 12,
+      "fullEn": "MaGaTa",
+      "fullMm": "မင်္ဂလာတောင်ညွှန့်"
+    },
+    {
+      "en": "MAGADA",
+      "mm": "မဂဒ",
+      "code": 12,
+      "fullEn": "MaGaDa",
+      "fullMm": "မင်္ဂလာဒုံ"
+    },
+    {
+      "en": "UKAMA",
+      "mm": "ဥကမ",
+      "code": 12,
+      "fullEn": "OuKaMa",
+      "fullMm": "မြောက်ဥက္ကလာပ"
+    },
+    {
+      "en": "PABHATA",
+      "mm": "ပဘတ",
+      "code": 12,
+      "fullEn": "PaBaTa",
+      "fullMm": "ပန်းဘဲတန်း"
+    },
+    {
+      "en": "PAZATA",
+      "mm": "ပဇတ",
+      "code": 12,
+      "fullEn": "PaZaDa",
+      "fullMm": "ပုဇွန်တောင်"
+    },
+    {
+      "en": "CAKHANA",
+      "mm": "စခန",
+      "code": 12,
+      "fullEn": "SaKhaNa",
+      "fullMm": "စမ်းချောင်း"
+    },
+    {
+      "en": "CHAKAKHA",
+      "mm": "ဆကခ",
+      "code": 12,
+      "fullEn": "SaKakha",
+      "fullMm": "ဆိပ်ကြီးခနောင်တို"
+    },
+    {
+      "en": "CHAKANA",
+      "mm": "ဆကန",
+      "code": 12,
+      "fullEn": "SaKaNa",
+      "fullMm": "ဆိပ်ကမ်း"
+    },
+    {
+      "en": "RAPAKA",
+      "mm": "ရပက",
+      "code": 12,
+      "fullEn": "YaPaKa",
+      "fullMm": "ရွှေပေါက်ကံ"
+    },
+    {
+      "en": "RAPASA",
+      "mm": "ရပသ",
+      "code": 12,
+      "fullEn": "YaPaTha",
+      "fullMm": "ရွှေပြည်သာ"
+    },
+    {
+      "en": "UKATA",
+      "mm": "ဥကတ",
+      "code": 12,
+      "fullEn": "OuKaTa",
+      "fullMm": "တောင်ဥက္ကလာပ"
+    },
+    {
+      "en": "TAKANA",
+      "mm": "တကန",
+      "code": 12,
+      "fullEn": "TaKaNa",
+      "fullMm": "တိုက်ကြီး"
+    },
+    {
+      "en": "TAMANA",
+      "mm": "တမန",
+      "code": 12,
+      "fullEn": "TaMaNa",
+      "fullMm": "တာမွေ"
+    },
+    {
+      "en": "SAKATA",
+      "mm": "သကတ",
+      "code": 12,
+      "fullEn": "ThaKaTa",
+      "fullMm": "သာကေတ"
+    },
+    {
+      "en": "SALANA",
+      "mm": "သလန",
+      "code": 12,
+      "fullEn": "ThaLaNa",
+      "fullMm": "သန်လျင်"
+    },
+    {
+      "en": "SAGHAKA",
+      "mm": "သဃက",
+      "code": 12,
+      "fullEn": "ThaGaKa",
+      "fullMm": "သင်္ဃန်းကျွန်း"
+    },
+    {
+      "en": "SAKHANA",
+      "mm": "သခန",
+      "code": 12,
+      "fullEn": "ThaKhaNa",
+      "fullMm": "သုံးခွ"
+    },
+    {
+      "en": "TATANA",
+      "mm": "တတန",
+      "code": 12,
+      "fullEn": "TaTaNa",
+      "fullMm": "တွံတေး"
+    },
+    {
+      "en": "RAKANA",
+      "mm": "ရကန",
+      "code": 12,
+      "fullEn": "YaKaNa",
+      "fullMm": "ရန်ကင်း"
+    },
+    {
+      "en": "TATHTA",
+      "mm": "တတထ",
+      "code": 12,
+      "fullEn": "TaTaHta",
+      "fullMm": "တံတား"
+    }
+  ]
+}
