@@ -8,6 +8,7 @@
             "mm": "လဘန",
             "code": 3,
             "fullEn": "LaBaNa",
+            "townshipCode": "LaBaNa",
             "fullMm": "လှိုင်းဘွဲ့"
         },
         {
@@ -15,6 +16,7 @@
             "mm": "ကကရ",
             "code": 3,
             "fullEn": "KaKaYa",
+            "townshipCode": "KaKaYa",
             "fullMm": "ကော့ကရိတ်"
         },
         {
@@ -22,6 +24,7 @@
             "mm": "ကဆက",
             "code": 3,
             "fullEn": "KaSaKa",
+            "townshipCode": "KaSaKa",
             "fullMm": "ကြာအင်းဆိပ်ကြီး"
         },
         {
@@ -29,6 +32,7 @@
             "mm": "ကဒန",
             "code": 3,
             "fullEn": "KaDaNa",
+            "townshipCode": "KaDaNa",
             "fullMm": "ကျုံဒိုး"
         },
         {
@@ -36,6 +40,7 @@
             "mm": "မဝတ",
             "code": 3,
             "fullEn": "MaWaTa",
+            "townshipCode": "MaWaTa",
             "fullMm": "မြဝတီ"
         },
         {
@@ -43,6 +48,7 @@
             "mm": "ဖအန",
             "code": 3,
             "fullEn": "PhaAhNa",
+            "townshipCode": "PhaAhNa",
             "fullMm": "ဖားအံ"
         },
         {
@@ -50,6 +56,7 @@
             "mm": "ဘအန",
             "code": 3,
             "fullEn": "BaAhNa",
+            "townshipCode": "BaAhNa",
             "fullMm": "ဘားအံ"
         },
         {
@@ -57,6 +64,7 @@
             "mm": "ဖပန",
             "code": 3,
             "fullEn": "PhaPaNa",
+            "townshipCode": "PhaPaNa",
             "fullMm": "ဖျာပွန်"
         },
         {
@@ -64,6 +72,7 @@
             "mm": "သတန",
             "code": 3,
             "fullEn": "ThaTaNa",
+            "townshipCode": "ThaTaNa",
             "fullMm": "သံတောင်"
         },
         {
@@ -71,6 +80,7 @@
             "mm": "ဘဂလ",
             "code": 3,
             "fullEn": "BaGaLa",
+            "townshipCode": "BaGaLa",
             "fullMm": "ဘောဂလိ"
         },
         {
@@ -78,6 +88,7 @@
             "mm": "ဘသဆ",
             "code": 3,
             "fullEn": "BaThaSa",
+            "townshipCode": "BaThaSa",
             "fullMm": "ဘုရားသုံးဆူ"
         },
         {
@@ -85,6 +96,7 @@
             "mm": "ကမမ",
             "code": 3,
             "fullEn": "KaMaMa",
+            "townshipCode": "KaMaMa",
             "fullMm": "ကမမောင်း"
         },
         {
@@ -92,6 +104,7 @@
             "mm": "လသန",
             "code": 3,
             "fullEn": "LaThaNa",
+            "townshipCode": "LaThaNa",
             "fullMm": "လိပ်သို"
         },
         {
@@ -99,6 +112,7 @@
             "mm": "စကလ",
             "code": 3,
             "fullEn": "SaKaLa",
+            "townshipCode": "SaKaLa",
             "fullMm": "စုကလိ"
         },
         {
@@ -106,6 +120,7 @@
             "mm": "သတက",
             "code": 3,
             "fullEn": "ThaTaKa",
+            "townshipCode": "ThaTaKa",
             "fullMm": "သံတောင်ကြီး"
         },
         {
@@ -113,6 +128,7 @@
             "mm": "ဝလမ",
             "code": 3,
             "fullEn": "WaLaMa",
+            "townshipCode": "WaLaMa",
             "fullMm": "ဝေါလေမြိုင်"
         },
         {
@@ -120,6 +136,7 @@
             "mm": "ရရသ",
             "code": 3,
             "fullEn": "YaYaTha",
+            "townshipCode": "YaYaTha",
             "fullMm": "ရှမ်းရွာသစ်"
         }
     ]

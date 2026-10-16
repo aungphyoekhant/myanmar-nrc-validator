@@ -62,7 +62,7 @@ export function getCitizenType(
     return Object.entries(citizenTypesData).map(
       ([code, info]: [string, any]) => ({
         code,
-        en: info.en,
+        en: info.name,
         mm: info.mm,
       }),
     );

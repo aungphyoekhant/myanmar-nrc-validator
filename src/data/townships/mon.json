@@ -8,6 +8,7 @@
       "mm": "ဘလန",
       "code": 10,
       "fullEn": "BaLaNa",
+      "townshipCode": "BaLaNa",
       "fullMm": "ဘီးလင်း"
     },
     {
@@ -15,6 +16,7 @@
       "mm": "ခဆန",
       "code": 10,
       "fullEn": "KhaSaNa",
+      "townshipCode": "KhaSaNa",
       "fullMm": "ချောင်းဆုံ"
     },
     {
@@ -22,6 +24,7 @@
       "mm": "ကမရ",
       "code": 10,
       "fullEn": "KaMaYa",
+      "townshipCode": "KaMaYa",
       "fullMm": "ကျိုက်မရော"
     },
     {
@@ -29,6 +32,7 @@
       "mm": "ကထန",
       "code": 10,
       "fullEn": "KaHtaNa",
+      "townshipCode": "KaHtaNa",
       "fullMm": "ကျိုက်ထို"
     },
     {
@@ -36,6 +40,7 @@
       "mm": "မလမ",
       "code": 10,
       "fullEn": "MaLaMa",
+      "townshipCode": "MaLaMa",
       "fullMm": "မော်လမြိုင်"
     },
     {
@@ -43,6 +48,7 @@
       "mm": "မဒန",
       "code": 10,
       "fullEn": "MaDaNa",
+      "townshipCode": "MaDaNa",
       "fullMm": "မုဒုံ"
     },
     {
@@ -50,6 +56,7 @@
       "mm": "ပမန",
       "code": 10,
       "fullEn": "PaMaNa",
+      "townshipCode": "PaMaNa",
       "fullMm": "ပေါင်"
     },
     {
@@ -57,6 +64,7 @@
       "mm": "သဖရ",
       "code": 10,
       "fullEn": "ThaPhaYa",
+      "townshipCode": "ThaPhaYa",
       "fullMm": "သံဖြူဇရပ်"
     },
     {
@@ -64,6 +72,7 @@
       "mm": "သထန",
       "code": 10,
       "fullEn": "ThaHtaNa",
+      "townshipCode": "ThaHtaNa",
       "fullMm": "သထုံ"
     },
     {
@@ -71,6 +80,7 @@
       "mm": "ခဇန",
       "code": 10,
       "fullEn": "KhaZaNa",
+      "townshipCode": "KhaZaNa",
       "fullMm": "ခေါဇာ"
     },
     {
@@ -78,6 +88,7 @@
       "mm": "လမန",
       "code": 10,
       "fullEn": "LaMaNa",
+      "townshipCode": "LaMaNa",
       "fullMm": "လမိုင်း"
     },
     {
@@ -85,6 +96,7 @@
       "mm": "ရမန",
       "code": 10,
       "fullEn": "YaMaNa",
+      "townshipCode": "YaMaNa",
       "fullMm": "ရေး"
     },
     {
@@ -92,6 +104,7 @@
       "mm": "ကခမ",
       "code": 10,
       "fullEn": "KaKhaMa",
+      "townshipCode": "KaKhaMa",
       "fullMm": "ကျိုက္ခမီ"
     }
   ]

@@ -1,6 +1,29 @@
 import { parseNRC } from "./parser.js";
 import { composeNRC, type CitizenType } from "./composer.js";
+import { getStateTownships } from "./regions.js";
 
+/**
+ * Resolve a township (English code OR Myanmar name) to its short
+ * Myanmar name for the given state/region.
+ * e.g. (12, "UKAMA") -> "ဥကမ"
+ */
+function toMyanmarTownship(stateCode: string, township: string): string {
+  const info = getStateTownships(stateCode);
+  if (!info) return township;
+
+  const query = township.trim().toUpperCase();
+  const raw = township.trim();
+
+  const found = info.townships.find(
+    (t: any) =>
+      t.en.toUpperCase() === query ||
+      t.mm === raw ||
+      t.fullEn.toUpperCase() === query ||
+      t.fullMm === raw,
+  );
+
+  return found ? found.mm : township;
+}
 
 function toMyanmarDigits(input: string): string {
   const enDigits: Record<string, string> = {
@@ -56,6 +79,7 @@ export function formatNRC(
 
   const stateMmDigits = toMyanmarDigits(parsed.stateCode);
   const numberMmDigits = toMyanmarDigits(parsed.number);
+  const mmTownship = toMyanmarTownship(parsed.stateCode, parsed.township);
 
-  return `${stateMmDigits}/${parsed.township}(${citizenType})${numberMmDigits}`;
+  return `${stateMmDigits}/${mmTownship}(${citizenType})${numberMmDigits}`;
 }

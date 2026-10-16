@@ -8,6 +8,7 @@
             "mm": "ဘလခ",
             "code": 2,
             "fullEn": "BaLaKha",
+            "townshipCode": "BaLaKha",
             "fullMm": "ဘော်လခဲ"
         },
         {
@@ -15,6 +16,7 @@
             "mm": "ဒမဆ",
             "code": 2,
             "fullEn": "DaMaSa",
+            "townshipCode": "DaMaSa",
             "fullMm": "ဒီမောဆိုး"
         },
         {
@@ -22,6 +24,7 @@
             "mm": "လကန",
             "code": 2,
             "fullEn": "LaKaNa",
+            "townshipCode": "LaKaNa",
             "fullMm": "လွိုင်ကော်"
         },
         {
@@ -29,6 +32,7 @@
             "mm": "မဆန",
             "code": 2,
             "fullEn": "MaSaNa",
+            "townshipCode": "MaSaNa",
             "fullMm": "မယ်ဆည်နန်"
         },
         {
@@ -36,6 +40,7 @@
             "mm": "ဖဆန",
             "code": 2,
             "fullEn": "PhaSaNa",
+            "townshipCode": "PhaSaNa",
             "fullMm": "ဖားဆောင်း"
         },
         {
@@ -43,6 +48,7 @@
             "mm": "ဖရဆ",
             "code": 2,
             "fullEn": "PhaYaSa",
+            "townshipCode": "PhaYaSa",
             "fullMm": "ဖရူးဆိုး"
         },
         {
@@ -50,6 +56,7 @@
             "mm": "ရတန",
             "code": 2,
             "fullEn": "YaTaNa",
+            "townshipCode": "YaTaNa",
             "fullMm": "ရှားတော်"
         },
         {
@@ -57,6 +64,7 @@
             "mm": "မစန",
             "code": 2,
             "fullEn": "MaSaNa",
+            "townshipCode": "MaSaNa",
             "fullMm": "မယ်စဲ့"
         },
         {
@@ -64,6 +72,7 @@
             "mm": "ရသန",
             "code": 2,
             "fullEn": "YaThaNa",
+            "townshipCode": "YaThaNa",
             "fullMm": "ရွာသစ်"
         }
     ]

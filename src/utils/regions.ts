@@ -13,8 +13,13 @@ import rakhineData from "../data/townships/rakhine.json" with { type: "json" };
 import yangonData from "../data/townships/yangon.json" with { type: "json" };
 import shanData from "../data/townships/shan.json" with { type: "json" };
 import ayeyarwadyData from "../data/townships/ayeyarwady.json" with { type: "json" };
+import type { Township } from "../types/nrc.js";
 
-const TOWNSHIP_FILES: Record<string, any> = {
+interface TownshipFile {
+  townships: Township[];
+}
+
+const TOWNSHIP_FILES: Record<string, TownshipFile> = {
   "1": kachinData,
   "2": kayahData,
   "3": kayinData,

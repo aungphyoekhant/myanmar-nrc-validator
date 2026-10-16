@@ -8,6 +8,7 @@
             "mm": "အမန",
             "code": 11,
             "fullEn": "AaMaNa",
+            "townshipCode": "AaMaNa",
             "fullMm": "အမ်း"
         },
         {
@@ -15,6 +16,7 @@
             "mm": "ဘသတ",
             "code": 11,
             "fullEn": "BaThaTa",
+            "townshipCode": "BaThaTa",
             "fullMm": "ဘူးသီးတောင်"
         },
         {
@@ -22,6 +24,7 @@
             "mm": "ဂမန",
             "code": 11,
             "fullEn": "GaMaNa",
+            "townshipCode": "GaMaNa",
             "fullMm": "ဂွ"
         },
         {
@@ -29,6 +32,7 @@
             "mm": "ကဖန",
             "code": 11,
             "fullEn": "KaPhaNa",
+            "townshipCode": "KaPhaNa",
             "fullMm": "ကျောက်ဖြူ"
         },
         {
@@ -36,6 +40,7 @@
             "mm": "ကတန",
             "code": 11,
             "fullEn": "KaTaNa",
+            "townshipCode": "KaTaNa",
             "fullMm": "ကျောက်တော်"
         },
         {
@@ -43,6 +48,7 @@
             "mm": "မအန",
             "code": 11,
             "fullEn": "MaAhNa",
+            "townshipCode": "MaAhNa",
             "fullMm": "မာန်အောင်"
         },
         {
@@ -50,6 +56,7 @@
             "mm": "မတန",
             "code": 11,
             "fullEn": "MaTaNa",
+            "townshipCode": "MaTaNa",
             "fullMm": "မောင်းတော"
         },
         {
@@ -57,6 +64,7 @@
             "mm": "မပန",
             "code": 11,
             "fullEn": "MaPaNa",
+            "townshipCode": "MaPaNa",
             "fullMm": "မင်းပြား"
         },
         {
@@ -64,6 +72,7 @@
             "mm": "မဥန",
             "code": 11,
             "fullEn": "MaOuNa",
+            "townshipCode": "MaOuNa",
             "fullMm": "မြောက်ဦး"
         },
         {
@@ -71,6 +80,7 @@
             "mm": "မပတ",
             "code": 11,
             "fullEn": "MaPaTa",
+            "townshipCode": "MaPaTa",
             "fullMm": "မြေပုံ"
         },
         {
@@ -78,6 +88,7 @@
             "mm": "ပတန",
             "code": 11,
             "fullEn": "PaTaNa",
+            "townshipCode": "PaTaNa",
             "fullMm": "ပေါက်တော"
         },
         {
@@ -85,6 +96,7 @@
             "mm": "ပဏက",
             "code": 11,
             "fullEn": "PaNaKa",
+            "townshipCode": "PaNaKa",
             "fullMm": "ပုဏ္ဏကျွန်း"
         },
         {
@@ -92,6 +104,7 @@
             "mm": "စတန",
             "code": 11,
             "fullEn": "SaTaNa",
+            "townshipCode": "SaTaNa",
             "fullMm": "စစ်တွေ"
         },
         {
@@ -99,6 +112,7 @@
             "mm": "တကန",
             "code": 11,
             "fullEn": "TaKaNa",
+            "townshipCode": "TaKaNa",
             "fullMm": "တောင်ကုတ်"
         },
         {
@@ -106,6 +120,7 @@
             "mm": "သတန",
             "code": 11,
             "fullEn": "ThaTaNa",
+            "townshipCode": "ThaTaNa",
             "fullMm": "သံတွဲ"
         },
         {
@@ -113,6 +128,7 @@
             "mm": "ရဗန",
             "code": 11,
             "fullEn": "YaBaNa",
+            "townshipCode": "YaBaNa",
             "fullMm": "ရမ်းဗြဲ"
         },
         {
@@ -120,6 +136,7 @@
             "mm": "ရသတ",
             "code": 11,
             "fullEn": "YaThaTa",
+            "townshipCode": "YaThaTa",
             "fullMm": "ရသေ့တောင်"
         },
         {
@@ -127,6 +144,7 @@
             "mm": "ကတလ",
             "code": 11,
             "fullEn": "KaTaLa",
+            "townshipCode": "KaTaLa",
             "fullMm": "ကျိန္တလီ"
         },
         {
@@ -134,6 +152,7 @@
             "mm": "မအတ",
             "code": 11,
             "fullEn": "MaAhTa",
+            "townshipCode": "MaAhTa",
             "fullMm": "မအီ"
         },
         {
@@ -141,6 +160,7 @@
             "mm": "တပဝ",
             "code": 11,
             "fullEn": "TaPaWa",
+            "townshipCode": "TaPaWa",
             "fullMm": "တောင်ပြိုလက်ဝဲ"
         }
     ]

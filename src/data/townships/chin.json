@@ -8,6 +8,7 @@
       "mm": "ဟခန",
       "code": 4,
       "fullEn": "HaKhaNa",
+      "townshipCode": "HaKhaNa",
       "fullMm": "ဟားခါး"
     },
     {
@@ -15,6 +16,7 @@
       "mm": "ထတလ",
       "code": 4,
       "fullEn": "HtaTaLa",
+      "townshipCode": "HtaTaLa",
       "fullMm": "ထန်တလန်"
     },
     {
@@ -22,6 +24,7 @@
       "mm": "ကပလ",
       "code": 4,
       "fullEn": "KaPaLa",
+      "townshipCode": "KaPaLa",
       "fullMm": "ကန်ပက်လက်"
     },
     {
@@ -29,6 +32,7 @@
       "mm": "မတပ",
       "code": 4,
       "fullEn": "MaTaPa",
+      "townshipCode": "MaTaPa",
       "fullMm": "မတူပီ"
     },
     {
@@ -36,6 +40,7 @@
       "mm": "မတန",
       "code": 4,
       "fullEn": "MaTaNa",
+      "townshipCode": "MaTaNa",
       "fullMm": "မင်းတပ်"
     },
     {
@@ -43,6 +48,7 @@
       "mm": "ဖလန",
       "code": 4,
       "fullEn": "PhaLaNa",
+      "townshipCode": "PhaLaNa",
       "fullMm": "ဖလမ်း"
     },
     {
@@ -50,6 +56,7 @@
       "mm": "ပလဝ",
       "code": 4,
       "fullEn": "PaLaWa",
+      "townshipCode": "PaLaWa",
       "fullMm": "ပလက်ဝ"
     },
     {
@@ -57,6 +64,7 @@
       "mm": "တတန",
       "code": 4,
       "fullEn": "TaTaNa",
+      "townshipCode": "TaTaNa",
       "fullMm": "တီးတိန်"
     },
     {
@@ -64,6 +72,7 @@
       "mm": "တဇန",
       "code": 4,
       "fullEn": "TaZaNa",
+      "townshipCode": "TaZaNa",
       "fullMm": "တွန်းဇံ"
     },
     {
@@ -71,6 +80,7 @@
       "mm": "ကခန",
       "code": 4,
       "fullEn": "KaKhaNa",
+      "townshipCode": "KaKhaNa",
       "fullMm": "ကျီခါး"
     },
     {
@@ -78,6 +88,7 @@
       "mm": "ဆမန",
       "code": 4,
       "fullEn": "SaMaNa",
+      "townshipCode": "SaMaNa",
       "fullMm": "ဆမီး"
     },
     {
@@ -85,6 +96,7 @@
       "mm": "ရခဒ",
       "code": 4,
       "fullEn": "YaKhaDa",
+      "townshipCode": "YaKhaDa",
       "fullMm": "ရိဒ်ခေါဒါရ်"
     },
     {
@@ -92,6 +104,7 @@
       "mm": "ရဇန",
       "code": 4,
       "fullEn": "YaZaNa",
+      "townshipCode": "YaZaNa",
       "fullMm": "ရေဇွာ"
     }
   ]

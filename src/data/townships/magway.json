@@ -8,6 +8,7 @@
       "mm": "အလန",
       "code": 8,
       "fullEn": "AhLaNa",
+      "townshipCode": "AhLaNa",
       "fullMm": "အောင်လံ"
     },
     {
@@ -15,6 +16,7 @@
       "mm": "ခမန",
       "code": 8,
       "fullEn": "KhaMaNa",
+      "townshipCode": "KhaMaNa",
       "fullMm": "ချောက်"
     },
     {
@@ -22,6 +24,7 @@
       "mm": "ဂဂန",
       "code": 8,
       "fullEn": "GaGaNa",
+      "townshipCode": "GaGaNa",
       "fullMm": "ဂန့်ဂေါ"
     },
     {
@@ -29,6 +32,7 @@
       "mm": "ဆဖန",
       "code": 8,
       "fullEn": "SaPhaNa",
+      "townshipCode": "SaPhaNa",
       "fullMm": "ဆိပ်ဖြူ"
     },
     {
@@ -36,6 +40,7 @@
       "mm": "ဆပဝ",
       "code": 8,
       "fullEn": "SaPaWa",
+      "townshipCode": "SaPaWa",
       "fullMm": "ဆင်ပေါင်ဝဲ"
     },
     {
@@ -43,6 +48,7 @@
       "mm": "ထလန",
       "code": 8,
       "fullEn": "HtaLaNa",
+      "townshipCode": "HtaLaNa",
       "fullMm": "ထီးလင်း"
     },
     {
@@ -50,6 +56,7 @@
       "mm": "ကမန",
       "code": 8,
       "fullEn": "KaMaNa",
+      "townshipCode": "KaMaNa",
       "fullMm": "ကံမ"
     },
     {
@@ -57,6 +64,7 @@
       "mm": "မကန",
       "code": 8,
       "fullEn": "MaKaNa",
+      "townshipCode": "MaKaNa",
       "fullMm": "မကွေး"
     },
     {
@@ -64,6 +72,7 @@
       "mm": "မဘန",
       "code": 8,
       "fullEn": "MaBaNa",
+      "townshipCode": "MaBaNa",
       "fullMm": "မင်းဘူး"
     },
     {
@@ -71,6 +80,7 @@
       "mm": "မလန",
       "code": 8,
       "fullEn": "MaLaNa",
+      "townshipCode": "MaLaNa",
       "fullMm": "မင်းလှ"
     },
     {
@@ -78,6 +88,7 @@
       "mm": "မတန",
       "code": 8,
       "fullEn": "MaTaNa",
+      "townshipCode": "MaTaNa",
       "fullMm": "မင်းတုန်း"
     },
     {
@@ -85,6 +96,7 @@
       "mm": "မမန",
       "code": 8,
       "fullEn": "MaMaNa",
+      "townshipCode": "MaMaNa",
       "fullMm": "မြိုင်"
     },
     {
@@ -92,6 +104,7 @@
       "mm": "မထန",
       "code": 8,
       "fullEn": "MaHtaNa",
+      "townshipCode": "MaHtaNa",
       "fullMm": "မြေထဲ"
     },
     {
@@ -99,6 +112,7 @@
       "mm": "မသန",
       "code": 8,
       "fullEn": "MaThaNa",
+      "townshipCode": "MaThaNa",
       "fullMm": "မြို့သစ်"
     },
     {
@@ -106,6 +120,7 @@
       "mm": "နမန",
       "code": 8,
       "fullEn": "NaMaNa",
+      "townshipCode": "NaMaNa",
       "fullMm": "နတ်မောက်"
     },
     {
@@ -113,6 +128,7 @@
       "mm": "ငဖန",
       "code": 8,
       "fullEn": "NgaPhaNa",
+      "townshipCode": "NgaPhaNa",
       "fullMm": "ငါးဖယ်"
     },
     {
@@ -120,6 +136,7 @@
       "mm": "ပခက",
       "code": 8,
       "fullEn": "PaKhaKa",
+      "townshipCode": "PaKhaKa",
       "fullMm": "ပခုက္ကူ"
     },
     {
@@ -127,6 +144,7 @@
       "mm": "ပမန",
       "code": 8,
       "fullEn": "PaMaNa",
+      "townshipCode": "PaMaNa",
       "fullMm": "ပေါက်"
     },
     {
@@ -134,6 +152,7 @@
       "mm": "ပဖန",
       "code": 8,
       "fullEn": "PaPhaNa",
+      "townshipCode": "PaPhaNa",
       "fullMm": "ပွင့်ဖြူ"
     },
     {
@@ -141,6 +160,7 @@
       "mm": "စလန",
       "code": 8,
       "fullEn": "SaLaNa",
+      "townshipCode": "SaLaNa",
       "fullMm": "စလင်း"
     },
     {
@@ -148,6 +168,7 @@
       "mm": "စတရ",
       "code": 8,
       "fullEn": "SaTaYa",
+      "townshipCode": "SaTaYa",
       "fullMm": "စေတုတ္တရာ"
     },
     {
@@ -155,6 +176,7 @@
       "mm": "စကန",
       "code": 8,
       "fullEn": "SaKaNa",
+      "townshipCode": "SaKaNa",
       "fullMm": "စကု"
     },
     {
@@ -162,6 +184,7 @@
       "mm": "တတက",
       "code": 8,
       "fullEn": "TaTaKa",
+      "townshipCode": "TaTaKa",
       "fullMm": "တောင်တွင်းကြီး"
     },
     {
@@ -169,6 +192,7 @@
       "mm": "သရန",
       "code": 8,
       "fullEn": "ThaYaNa",
+      "townshipCode": "ThaYaNa",
       "fullMm": "သရက်"
     },
     {
@@ -176,6 +200,7 @@
       "mm": "ဆမန",
       "code": 8,
       "fullEn": "SaMaNa",
+      "townshipCode": "SaMaNa",
       "fullMm": "ဆော"
     },
     {
@@ -183,6 +208,7 @@
       "mm": "ရနခ",
       "code": 8,
       "fullEn": "YaNaKha",
+      "townshipCode": "YaNaKha",
       "fullMm": "ရေနံချောင်း"
     },
     {
@@ -190,6 +216,7 @@
       "mm": "ရစက",
       "code": 8,
       "fullEn": "YaSaKa",
+      "townshipCode": "YaSaKa",
       "fullMm": "ရေစကြို"
     },
     {
@@ -197,6 +224,7 @@
       "mm": "ကထန",
       "code": 8,
       "fullEn": "KaHtaNa",
+      "townshipCode": "KaHtaNa",
       "fullMm": "ကျောက်ထု"
     }
   ]

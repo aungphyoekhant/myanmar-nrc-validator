@@ -37,7 +37,7 @@ export function getCitizenType(nrcString) {
     if (!nrcString || typeof nrcString !== "string" || nrcString.trim() === "") {
         return Object.entries(citizenTypesData).map(([code, info]) => ({
             code,
-            en: info.en,
+            en: info.name,
             mm: info.mm,
         }));
     }

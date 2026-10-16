@@ -8,6 +8,7 @@
             "mm": "အဂယ",
             "code": 1,
             "fullEn": "AhGaYa",
+            "townshipCode": "AhGaYa",
             "fullMm": "အင်ဂျန်းယန်"
         },
         {
@@ -15,6 +16,7 @@
             "mm": "ဗမန",
             "code": 1,
             "fullEn": "BaMaNa",
+            "townshipCode": "BaMaNa",
             "fullMm": "ဗန်းမော်"
         },
         {
@@ -22,6 +24,7 @@
             "mm": "ခဖန",
             "code": 1,
             "fullEn": "KhaPhaNa",
+            "townshipCode": "KhaPhaNa",
             "fullMm": "ချီဖွေ"
         },
         {
@@ -29,6 +32,7 @@
             "mm": "ဒဖယ",
             "code": 1,
             "fullEn": "DaPhaYa",
+            "townshipCode": "DaPhaYa",
             "fullMm": "ဒေါ့ဖုန်းယန်"
         },
         {
@@ -36,6 +40,7 @@
             "mm": "ဟပန",
             "code": 1,
             "fullEn": "HaPaNa",
+            "townshipCode": "HaPaNa",
             "fullMm": "ဟိုပင်"
         },
         {
@@ -43,6 +48,7 @@
             "mm": "ကမန",
             "code": 1,
             "fullEn": "KaMaNa",
+            "townshipCode": "KaMaNa",
             "fullMm": "ကာမီ"
         },
         {
@@ -50,6 +56,7 @@
             "mm": "ခလဖ",
             "code": 1,
             "fullEn": "KhaLaPha",
+            "townshipCode": "KhaLaPha",
             "fullMm": "ခေါင်လန်ဖူး"
         },
         {
@@ -57,6 +64,7 @@
             "mm": "လဂန",
             "code": 1,
             "fullEn": "LaGaNa",
+            "townshipCode": "LaGaNa",
             "fullMm": "လွယ်ဂျယ်"
         },
         {
@@ -64,6 +72,7 @@
             "mm": "မခဘ",
             "code": 1,
             "fullEn": "MaKhaBa",
+            "townshipCode": "MaKhaBa",
             "fullMm": "မချမ်းဘော"
         },
         {
@@ -71,6 +80,7 @@
             "mm": "မစန",
             "code": 1,
             "fullEn": "MaSaNa",
+            "townshipCode": "MaSaNa",
             "fullMm": "မံစီ"
         },
         {
@@ -78,6 +88,7 @@
             "mm": "မညန",
             "code": 1,
             "fullEn": "MaNyaNa",
+            "townshipCode": "MaNyaNa",
             "fullMm": "မိုးညင်း"
         },
         {
@@ -85,6 +96,7 @@
             "mm": "မကတ",
             "code": 1,
             "fullEn": "MaKaTa",
+            "townshipCode": "MaKaTa",
             "fullMm": "မိုးကောင်း"
         },
         {
@@ -92,6 +104,7 @@
             "mm": "မမန",
             "code": 1,
             "fullEn": "MaMaNa",
+            "townshipCode": "MaMaNa",
             "fullMm": "မိုးမောက်"
         },
         {
@@ -99,6 +112,7 @@
             "mm": "မကန",
             "code": 1,
             "fullEn": "MaKaNa",
+            "townshipCode": "MaKaNa",
             "fullMm": "မြစ်ကြီးနား"
         },
         {
@@ -106,6 +120,7 @@
             "mm": "နမန",
             "code": 1,
             "fullEn": "NaMaNa",
+            "townshipCode": "NaMaNa",
             "fullMm": "နောင်မွန်း"
         },
         {
@@ -113,6 +128,7 @@
             "mm": "ဖကန",
             "code": 1,
             "fullEn": "PhaKaNa",
+            "townshipCode": "PhaKaNa",
             "fullMm": "ဖားကန့်"
         },
         {
@@ -120,6 +136,7 @@
             "mm": "ပတအ",
             "code": 1,
             "fullEn": "PaTaAh",
+            "townshipCode": "PaTaAh",
             "fullMm": "ပူတာအို"
         },
         {
@@ -127,6 +144,7 @@
             "mm": "ရကန",
             "code": 1,
             "fullEn": "YaKaNa",
+            "townshipCode": "YaKaNa",
             "fullMm": "ရွှေကူ"
         },
         {
@@ -134,6 +152,7 @@
             "mm": "ဆဘန",
             "code": 1,
             "fullEn": "SaBaNa",
+            "townshipCode": "SaBaNa",
             "fullMm": "ဆင်ဘို"
         },
         {
@@ -141,6 +160,7 @@
             "mm": "ဆလန",
             "code": 1,
             "fullEn": "SaLaNa",
+            "townshipCode": "SaLaNa",
             "fullMm": "ဆော့လော"
         },
         {
@@ -148,6 +168,7 @@
             "mm": "ဆပဘ",
             "code": 1,
             "fullEn": "SaPaBa",
+            "townshipCode": "SaPaBa",
             "fullMm": "ဆွမ်ပရာဘွမ်"
         },
         {
@@ -155,6 +176,7 @@
             "mm": "တနန",
             "code": 1,
             "fullEn": "TaNaNa",
+            "townshipCode": "TaNaNa",
             "fullMm": "တနိုင်း"
         },
         {
@@ -162,6 +184,7 @@
             "mm": "ဝမန",
             "code": 1,
             "fullEn": "WaMaNa",
+            "townshipCode": "WaMaNa",
             "fullMm": "ဝင်းမော်"
         },
         {
@@ -169,6 +192,7 @@
             "mm": "ကမတ",
             "code": 1,
             "fullEn": "KaMaTa",
+            "townshipCode": "KaMaTa",
             "fullMm": "ကာမိုင်း"
         },
         {
@@ -176,6 +200,7 @@
             "mm": "ကပတ",
             "code": 1,
             "fullEn": "KaPaTa",
+            "townshipCode": "KaPaTa",
             "fullMm": "ကန်ပိုက်တီ"
         },
         {
@@ -183,6 +208,7 @@
             "mm": "မလန",
             "code": 1,
             "fullEn": "MaLaNa",
+            "townshipCode": "MaLaNa",
             "fullMm": "မြို့လှ"
         },
         {
@@ -190,6 +216,7 @@
             "mm": "ပနဒ",
             "code": 1,
             "fullEn": "PaNaDa",
+            "townshipCode": "PaNaDa",
             "fullMm": "ပန်နန်းဒင်"
         },
         {
@@ -197,6 +224,7 @@
             "mm": "ပဝန",
             "code": 1,
             "fullEn": "PaWaNa",
+            "townshipCode": "PaWaNa",
             "fullMm": "ပန်ဝါ"
         },
         {
@@ -204,6 +232,7 @@
             "mm": "ဆဒန",
             "code": 1,
             "fullEn": "SaDaNa",
+            "townshipCode": "SaDaNa",
             "fullMm": "ဆဒုံး"
         },
         {
@@ -211,6 +240,7 @@
             "mm": "ရဘယ",
             "code": 1,
             "fullEn": "YaBaYa",
+            "townshipCode": "YaBaYa",
             "fullMm": "ရှင်ဘွေယန်"
         }
     ]

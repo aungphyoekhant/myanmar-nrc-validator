@@ -32,6 +32,15 @@ export type CitizenTypeCode = "N" | "P" | "A" | "T";
 export type CitizenTypeMm = "နိုင်" | "ပြု" | "ဧည့်" | "ယာယီ";
 export type CitizenType = CitizenTypeCode | CitizenTypeMm;
 
+export interface Township {
+  en: string;
+  mm: string;
+  code: number;
+  fullEn: string;
+  townshipCode: string;
+  fullMm: string;
+}
+
 export interface ParsedNRC {
   stateCode: string;
   stateNameEn: string;
