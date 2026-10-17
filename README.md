@@ -1,945 +1,632 @@
-# 🇲🇲 myanmar-nrc-validator
+<div align="center">
 
-**Validate, parse, format, compose, and scan Myanmar National Registration Card (NRC) numbers using TypeScript and JavaScript.**
+# 🇲🇲 Myanmar NRC Validator
 
-A TypeScript/JavaScript library for working with Myanmar NRC numbers, state and region codes, township data, and citizen-type labels. It also provides OCR-based document scanning capabilities through a scanner module.
+**Validate, parse, format, compose, and OCR-scan Myanmar National Registration Card (NRC) data with TypeScript and JavaScript.**
 
-[![npm version](https://img.shields.io/npm/v/myanmar-nrc-validator.svg)](https://www.npmjs.com/package/myanmar-nrc-validator)
-[![npm downloads](https://img.shields.io/npm/dm/myanmar-nrc-validator.svg)](https://www.npmjs.com/package/myanmar-nrc-validator)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![TypeScript](https://img.shields.io/badge/TypeScript-Supported-blue.svg)](https://www.typescriptlang.org/)
+A TypeScript-first ESM toolkit with Myanmar state/region and township reference data, citizen-type utilities, Zod validation, OCR workflows, a CLI, and a local Model Context Protocol (MCP) server.
 
-> Built for Node.js, TypeScript, JavaScript, NestJS, Express.js, React, and other modern JavaScript applications.
+[![npm version](https://img.shields.io/npm/v/myanmar-nrc-validator?style=for-the-badge&logo=npm&color=CB3837)](https://www.npmjs.com/package/myanmar-nrc-validator)
+[![npm downloads](https://img.shields.io/npm/dm/myanmar-nrc-validator?style=for-the-badge&logo=npm)](https://www.npmjs.com/package/myanmar-nrc-validator)
+[![TypeScript](https://img.shields.io/badge/TypeScript-supported-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](#license)
+[![MCP](https://img.shields.io/badge/Model_Context_Protocol-ready-7357FF?style=for-the-badge)](#model-context-protocol-mcp-server)
 
-## ✨ Features
+[Installation](#installation) · [Quick Start](#quick-start) · [API Reference](#api-reference) · [OCR](#ocr-document-scanning) · [MCP Server](#model-context-protocol-mcp-server) · [Contributing](#contributing)
 
-- **NRC Validation** — Validate NRC strings against the package's supported NRC structure and data.
-- **NRC Parsing** — Extract state number, township code, citizen type, and ID number.
-- **NRC Formatting** — Convert between Myanmar and English NRC formats.
-- **NRC Composition** — Construct NRC strings programmatically.
-- **State and Township Utilities** — Retrieve supported state/region and township data.
-- **Citizen Type Utilities** — Retrieve citizen types and their labels.
-- **Zod Integration** — Validate NRC input using a Zod schema.
-- **OCR Image Scanning** — Extract text from document images using Tesseract.js.
-- **Document Type Detection** — Identify likely NRC and driving licence front/back images.
-- **Image Preprocessing** — Resize, grayscale, normalize, sharpen, rotate, and optionally threshold images.
-- **Confidence and Review Flags** — Inspect OCR confidence and determine whether additional review is required.
-- **Node.js Buffer Support** — Process uploaded image buffers without requiring permanent file storage.
-- **CLI Support** — Validate and parse NRC values from the terminal.
-- **TypeScript Support** — Use typed APIs and declarations.
+</div>
 
-## 📦 Installation
+---
 
-Install the package:
+## Table of Contents
+
+- [Overview](#overview)
+- [Features](#features)
+- [Compatibility](#compatibility)
+- [Installation](#installation)
+- [Quick Start](#quick-start)
+- [Command-Line Interface](#command-line-interface)
+- [Core API](#core-api)
+  - [Validate an NRC](#validate-an-nrc)
+  - [Parse NRC components](#parse-nrc-components)
+  - [Compose and format NRC values](#compose-and-format-nrc-values)
+  - [Work with states, townships, and citizen types](#work-with-states-townships-and-citizen-types)
+- [TypeScript and Zod](#typescript-and-zod)
+- [OCR document scanning](#ocr-document-scanning)
+  - [Scan an image](#scan-an-image)
+  - [Scanner utilities](#scanner-utilities)
+  - [OCR review guidance](#ocr-review-guidance)
+- [Model Context Protocol (MCP) Server](#model-context-protocol-mcp-server)
+  - [Run locally](#run-locally)
+  - [Claude Desktop configuration](#claude-desktop-configuration)
+  - [Cursor configuration](#cursor-configuration)
+  - [Available MCP tools](#available-mcp-tools)
+- [API Reference](#api-reference)
+- [Development](#development)
+- [Troubleshooting](#troubleshooting)
+- [Security and Privacy](#security-and-privacy)
+- [Contributing](#contributing)
+- [License](#license)
+- [Support](#support)
+
+## Overview
+
+`myanmar-nrc-validator` is an ESM package for working with Myanmar National Registration Card (NRC) number strings in TypeScript and JavaScript. It provides utilities for validating, parsing, composing, and formatting NRC values, together with reference data for states/regions, townships, and citizen types.
+
+The package also includes OCR utilities built with Tesseract.js and Sharp, a Zod schema integration, a command-line interface (CLI), and a local stdio Model Context Protocol (MCP) server that exposes supported package functionality as tools for compatible AI clients.
+
+> **Important:** Format validation and reference-data checks do not prove that a physical document is genuine, current, or owned by the person presenting it. OCR output can be inaccurate. Use appropriate manual and authoritative verification for identity, financial, legal, or compliance decisions.
+
+## Features
+
+- **NRC validation** — Check supported NRC strings against the package's format and reference data.
+- **Parsing** — Extract the state/region code, township, citizen type, and number from supported NRC strings.
+- **Composition and formatting** — Build NRC strings from components and format values in English or Myanmar representation.
+- **Myanmar numeral support** — Work with Myanmar digits and supported citizen-type labels.
+- **Reference data** — Access state/region, township, and citizen-type data.
+- **Township lookup patterns** — Use township fields such as `townshipCode`, `fullEn`, `fullMm`, `en`, and `mm` to build application-specific searches.
+- **Zod integration** — Validate values using `nrcStringSchema` or add the `.nrc()` string extension with `extendZodWithNRC()`.
+- **OCR scanning** — Scan supported NRC and driving-licence images and inspect extracted values, confidence, document classification, and review flags.
+- **Retry and cache utilities** — Use retry-based scanning and option-sensitive result caching.
+- **CLI** — Validate an NRC from the terminal.
+- **MCP server** — Expose package functionality to compatible local MCP clients such as Claude Desktop and Cursor.
+- **TypeScript-first package** — Includes TypeScript declarations and exported types.
+
+## Compatibility
+
+- **Runtime:** Node.js 18 or later, as documented by this project.
+- **Module format:** ESM.
+- **Languages:** TypeScript and JavaScript.
+- **Package manager examples:** npm.
+- **OCR:** Uses Tesseract.js and Sharp; platform-specific Sharp installation requirements may apply.
+
+This README describes the documented package API. For the exact current export list and scripts, check the package's `package.json` and TypeScript declarations.
+
+## Installation
+
+Install the package from npm:
 
 ```bash
 npm install myanmar-nrc-validator
 ```
 
-For applications that use the OCR scanner, install its runtime dependencies as well:
-
-```bash
-npm install tesseract.js sharp
-```
-
-The OCR scanner requires:
-
-- `tesseract.js` — Optical character recognition (OCR).
-- `sharp` — Image preprocessing.
-
-The core NRC utilities and the OCR scanner may have different runtime dependencies depending on how the package is built and published.
-
-## 💻 CLI Usage
-
-Validate and inspect NRC numbers directly from the terminal.
-
-### English NRC
-
-```bash
-npx myanmar-nrc-validator "12/UKAMA(N)123456"
-```
-
-### Myanmar NRC
-
-```bash
-npx nrc "၁၂/ဥကမ(နိုင်)၁၂၃၄၅၆"
-```
-
-The exact CLI command depends on the executable names configured in the published package's `package.json`.
-
-## 🚀 Programmatic Usage
-
-Import the core utilities from the package:
+The package uses ESM imports:
 
 ```typescript
 import {
   validateNRC,
   parseNRC,
-  formatNRC,
   composeNRC,
-  getCitizenType,
-  getStates,
-  getStateTownships,
-  getCitizenTypes,
-  nrcStringSchema,
+  formatNRC,
 } from "myanmar-nrc-validator";
 ```
 
-## 1. Validate NRC
+## Quick Start
 
-Use `validateNRC()` to check an NRC string.
+```typescript
+import {
+  validateNRC,
+  parseNRC,
+  composeNRC,
+  formatNRC,
+} from "myanmar-nrc-validator";
+
+const input = "12/UKAMA(N)123456";
+
+// 1. Validate
+const isValid = validateNRC(input);
+console.log("Valid:", isValid);
+
+// 2. Parse
+const parsed = parseNRC(input);
+
+if (parsed) {
+  console.log("State/region code:", parsed.stateCode);
+  console.log("State/region name:", parsed.stateNameEn);
+  console.log("Township:", parsed.township);
+  console.log("Citizen type:", parsed.type);
+  console.log("Number:", parsed.number);
+}
+
+// 3. Compose
+const composed = composeNRC({
+  stateCode: "12",
+  township: "UKAMA",
+  type: "N",
+  number: "123456",
+});
+
+console.log("Composed:", composed);
+
+// 4. Format as Myanmar text
+if (composed) {
+  console.log("Myanmar format:", formatNRC(composed, "mm"));
+}
+```
+
+Example values above illustrate the API shape. Always validate against the package's supported reference data and the applicable real-world format requirements.
+
+## Command-Line Interface
+
+Run the CLI using `npx`:
+
+```bash
+npx myanmar-nrc-validator "၁၂/ဥကမ(နိုင်)၁၂၃၄၅၆"
+```
+
+The CLI reports whether the supplied NRC is valid, prints parsed components, and shows supported output formats. To display the available CLI options:
+
+```bash
+npx myanmar-nrc-validator --help
+```
+
+## Core API
+
+### Validate an NRC
+
+`validateNRC(value)` returns `true` when the value matches the package's supported NRC format and reference data; otherwise, it returns `false`.
 
 ```typescript
 import { validateNRC } from "myanmar-nrc-validator";
 
-console.log(validateNRC("၁၂/ဥကမ(နိုင်)၁၂၃၄၅၆"));
-
 console.log(validateNRC("12/UKAMA(N)123456"));
-
-console.log(validateNRC("99/XYZ(N)123456"));
+console.log(validateNRC("၁၂/ဥကမ(နိုင်)၁၂၃၄၅၆"));
+console.log(validateNRC("99/XXXXX(N)123456"));
 ```
 
-The validator checks the NRC format and relevant supported state/township information.
+Do not treat a `true` result as proof of document authenticity or identity.
 
-A successful result does not prove that a physical card is authentic or that the person presenting it owns the card.
+### Parse NRC components
 
-## 2. Parse NRC
-
-Use `parseNRC()` to extract structured information.
+`parseNRC(value)` returns a parsed object for a supported value or `null` when the value is invalid or unsupported.
 
 ```typescript
 import { parseNRC } from "myanmar-nrc-validator";
 
-const result = parseNRC("၁၂/ဥကမ(နိုင်)၁၂၃၄၅၆");
+const parsed = parseNRC("12/UKAMA(N)123456");
 
-console.log(result);
-```
-
-Example structure:
-
-```typescript
-{
-  stateNumber: "12",
-  townshipCode: "ဥကမ",
-  citizenType: "နိုင်",
-  number: "၁၂၃၄၅၆"
+if (parsed) {
+  console.log(parsed.stateCode);   // "12"
+  console.log(parsed.stateNameEn); // "Yangon Region"
+  console.log(parsed.township);    // "UKAMA"
+  console.log(parsed.type);        // "N"
+  console.log(parsed.number);      // "123456"
+} else {
+  console.log("Invalid or unsupported NRC");
 }
 ```
 
-The actual returned values depend on the input and the package's parser implementation.
+The `township` field contains the township string as it appears in the parsed NRC. To retrieve a canonical township record, use `getStateTownships()` and match against the returned township data. The MCP `parse_nrc` tool additionally returns the canonical `townshipCode`.
 
-English input is also supported:
+### Compose and format NRC values
 
-```typescript
-const result = parseNRC("12/UKAMA(N)123456");
-
-console.log(result);
-```
-
-Use parsed data to populate form fields, prepare API payloads, or organize application records.
-
-## 3. Get Citizen Type
-
-Use `getCitizenType()` to retrieve the citizen type associated with an NRC.
+Use `composeNRC()` to build an NRC string from its components. Use `formatNRC()` to format a supported NRC value.
 
 ```typescript
-import { getCitizenType } from "myanmar-nrc-validator";
+import { composeNRC, formatNRC } from "myanmar-nrc-validator";
 
-const citizenType = getCitizenType("12/UKAMA(N)123456");
+const nrc = composeNRC({
+  stateCode: "12",
+  township: "UKAMA",
+  type: "N",
+  number: "123456",
+});
 
-console.log(citizenType);
+if (nrc) {
+  console.log(nrc);                    // "12/UKAMA(N)123456"
+  console.log(formatNRC(nrc, "mm"));   // Myanmar representation
+} else {
+  console.log("Could not compose NRC from the supplied components");
+}
 ```
 
-You can also retrieve the available citizen-type list:
+`composeNRC()` and `formatNRC()` return `null` when the supplied components or NRC cannot be resolved.
+
+### Work with states, townships, and citizen types
+
+Get state/region and township data:
 
 ```typescript
-const citizenTypes = getCitizenType();
-
-console.log(citizenTypes);
-```
-
-Example:
-
-```typescript
-[
-  {
-    code: "N",
-    en: "Citizen",
-    mm: "နိုင်",
-  },
-  {
-    code: "P",
-    en: "Associate Citizen",
-    mm: "ဧည့်",
-  },
-  {
-    code: "A",
-    en: "Naturalized Citizen",
-    mm: "ပြု",
-  },
-  {
-    code: "T",
-    en: "Temporary",
-    mm: "ယာယီ",
-  },
-];
-```
-
-The available entries depend on the package's built-in data.
-
-## 4. Format NRC
-
-Use `formatNRC()` to convert between supported Myanmar and English formats.
-
-### Myanmar to English
-
-```typescript
-import { formatNRC } from "myanmar-nrc-validator";
-
-const result = formatNRC("၁၂/ဥကမ(နိုင်)၁၂၃၄၅၆", "en");
-
-console.log(result);
-```
-
-Example output:
-
-```text
-12/UKAMA(N)123456
-```
-
-### English to Myanmar
-
-```typescript
-const result = formatNRC("12/UKAMA(N)123456", "mm");
-
-console.log(result);
-```
-
-Example output:
-
-```text
-၁၂/ဥကမ(နိုင်)၁၂၃၄၅၆
-```
-
-Formatting changes the representation of the input. It does not independently verify a physical document.
-
-## 5. Get States and Regions
-
-Retrieve supported state and region data.
-
-```typescript
-import { getStates } from "myanmar-nrc-validator";
+import { getStates, getStateTownships } from "myanmar-nrc-validator";
 
 const states = getStates();
-
 console.log(states);
+
+const yangon = getStateTownships("12");
+console.log(yangon?.townships);
 ```
 
-Use this function to populate state/region selectors or display supported NRC region information.
-
-## 6. Get Townships for a State
-
-Use `getStateTownships()` to retrieve the townships associated with a state or region.
+Search the returned township records in your application:
 
 ```typescript
-import { getStateTownships } from "myanmar-nrc-validator";
+import { getStates, getStateTownships } from "myanmar-nrc-validator";
 
-const townships = getStateTownships("12");
+const query = "ukama".toLocaleLowerCase();
 
-console.log(townships);
-```
+const matches = getStates().flatMap((state) => {
+  const region = getStateTownships(state.code);
 
-In the package's NRC data, `"12"` represents Yangon Region.
-
-Use the returned structure according to the actual types exported by your installed package.
-
-## 7. Get All Citizen Types
-
-```typescript
-import { getCitizenTypes } from "myanmar-nrc-validator";
-
-const citizenTypes = getCitizenTypes();
-
-console.log(citizenTypes);
-```
-
-This is useful for building dropdowns, displaying citizen-type labels, and integrating NRC information into registration forms.
-
-## 🧩 Compose NRC
-
-Use `composeNRC()` to build an NRC string from individual components.
-
-### Myanmar format
-
-```typescript
-import { composeNRC } from "myanmar-nrc-validator";
-
-const nrc = composeNRC({
-  stateNumber: "12",
-  townshipCode: "ဥကမ",
-  citizenType: "နိုင်",
-  number: "123456",
-  format: "mm",
+  return (region?.townships ?? [])
+    .filter((township) =>
+      [
+        township.en,
+        township.mm,
+        township.fullEn,
+        township.fullMm,
+        township.townshipCode,
+      ].some((value) => value.toLocaleLowerCase().includes(query)),
+    )
+    .map((township) => ({
+      ...township,
+      stateCode: state.code,
+      stateNameEn: state.en,
+    }));
 });
 
-console.log(nrc);
+console.log(matches);
 ```
 
-Example output:
+Township records include `townshipCode`, whose value matches `fullEn`. Use the returned fields rather than assuming a separate package-level township-search function exists.
 
-```text
-၁၂/ဥကမ(နိုင်)၁၂၃၄၅၆
-```
-
-### English format
+Get citizen-type information:
 
 ```typescript
-const nrc = composeNRC({
-  stateNumber: "12",
-  townshipCode: "UKAMA",
-  citizenType: "N",
-  number: "123456",
-  format: "en",
-});
+import {
+  getCitizenTypes,
+  getCitizenType,
+  getStates,
+} from "myanmar-nrc-validator";
 
-console.log(nrc);
+console.log(getCitizenTypes());
+console.log(getCitizenType("12/UKAMA(N)123456"));
+console.log(getStates());
 ```
 
-Example output:
+## TypeScript and Zod
 
-```text
-12/UKAMA(N)123456
-```
+The package provides TypeScript declarations and exports types including `ParsedNRC`, `ComposeOptions`, `CitizenType`, `ScanOptions`, and `BankGradeScanResult`.
 
-Use the supported township codes and citizen-type values from the installed package.
-
-## 🛡️ Zod Schema Validation
-
-Use `nrcStringSchema` to validate NRC input in forms and application APIs.
+### Validate with the exported schema
 
 ```typescript
-import { nrcStringSchema } from "myanmar-nrc-validator";
+import {
+  nrcStringSchema,
+  parseNRC,
+  type ParsedNRC,
+  type ComposeOptions,
+} from "myanmar-nrc-validator";
 
 const result = nrcStringSchema.safeParse("၁၂/ဥကမ(နိုင်)၁၂၃၄၅၆");
 
 if (result.success) {
-  console.log("Valid NRC!");
-} else {
-  console.error("Validation failed:", result.error.format());
-}
-```
-
-Zod validation is useful for checking user input before sending it to an API or saving it in a database.
-
-## 🔎 OCR Image Scanning and Validation
-
-The OCR scanner provides an additional workflow for extracting information from images of Myanmar NRCs and driving licences.
-
-It uses Tesseract.js for OCR and Sharp for image preprocessing.
-
-### Supported document types
-
-| Document type   | Description                |
-| --------------- | -------------------------- |
-| `NRC_FRONT`     | NRC front side             |
-| `NRC_BACK`      | NRC back side              |
-| `LICENSE_FRONT` | Driving licence front side |
-| `LICENSE_BACK`  | Driving licence back side  |
-| `UNKNOWN`       | Unrecognized document type |
-
-**Important:** Document type detection and extracted text are automated estimates. They do not prove document authenticity or identity.
-
-### Scanner import
-
-The following example uses a scanner file in your own project:
-
-```typescript
-import { scanAndValidateNRCImage } from "./scanner/nrc-scanner.js";
-```
-
-If the scanner is exposed as a public subpath or package-root export, use the corresponding import path from your package's published exports.
-
-### 1. Basic OCR scanning
-
-```typescript
-import { scanAndValidateNRCImage } from "./scanner/nrc-scanner.js";
-
-async function main() {
-  const result = await scanAndValidateNRCImage("./public/nrc-front.jpg");
-
-  if (!result.success) {
-    console.error("Scanning failed:", result.error);
-    return;
-  }
-
-  console.log("Document type:", result.documentType);
-  console.log("Extracted NRC:", result.extractedNRC);
-  console.log("Extracted licence:", result.extractedLicense);
-  console.log("Serial number:", result.extractedSerial);
-  console.log("Confidence:", result.confidence);
-  console.log("Valid:", result.isValid);
-  console.log("Manual review:", result.requiresManualReview);
-  console.log("Parsed NRC:", result.data);
+  const acceptedNrc: string = result.data;
+  console.log(acceptedNrc);
 }
 
-main().catch(console.error);
-```
-
-### 2. Custom image preprocessing
-
-Customize preprocessing to improve recognition for images with low resolution, noise, poor contrast, or incorrect orientation.
-
-```typescript
-import { scanAndValidateNRCImage } from "./scanner/nrc-scanner.js";
-
-async function testScan() {
-  const imagePath = "./public/image.png";
-
-  console.log("Scanning and validating NRC image...");
-
-  const result = await scanAndValidateNRCImage(imagePath, {
-    // Increase image resolution
-    resizeWidth: 2200,
-
-    // Image preprocessing
-    grayscale: true,
-    normalize: true,
-    median: 1,
-    contrastMultiplier: 1.2,
-    brightnessOffset: 0,
-    sharpenSigma: 1,
-
-    // Rotate when necessary
-    rotateDegrees: 0,
-
-    // Optional thresholding
-    useThreshold: false,
-    thresholdValue: 120,
-
-    // OCR confidence threshold
-    minConfidence: 60,
-
-    // Save processed image for debugging
-    debug: true,
-    debugOutputPath: "./tmp/debug-processed.jpg",
-  });
-
-  console.log("----------------------------------------");
-
-  if (!result.success) {
-    console.error("Scan failed:", result.error);
-    return;
-  }
-
-  console.log(JSON.stringify(result, null, 2));
-
-  console.log("----------------------------------------");
-}
-
-testScan().catch(console.error);
-```
-
-**Image preprocessing tips**
-
-- Increase `resizeWidth` when the original image is too small.
-- Try `rotateDegrees` when the document is rotated.
-- Use `grayscale` and `normalize` to prepare the image for OCR.
-- Adjust `contrastMultiplier` and `brightnessOffset` carefully.
-- Use `median` to reduce noise when appropriate.
-- Enable `useThreshold` only when black-and-white conversion improves your test images.
-- Use `debugOutputPath` to inspect the processed image during development.
-
-The best settings depend on image quality. Test with a representative set of images instead of assuming one configuration will work for every document.
-
-### 3. Scanner configuration options
-
-| Option               | Description                                          |
-| -------------------- | ---------------------------------------------------- |
-| `resizeWidth`        | Target width for resizing                            |
-| `zoomScale`          | Additional scaling factor                            |
-| `grayscale`          | Convert the image to grayscale                       |
-| `normalize`          | Normalize image contrast                             |
-| `median`             | Reduce image noise                                   |
-| `contrastMultiplier` | Adjust contrast                                      |
-| `brightnessOffset`   | Adjust brightness                                    |
-| `sharpenSigma`       | Sharpen text edges                                   |
-| `rotateDegrees`      | Rotate the image                                     |
-| `useThreshold`       | Enable threshold-based black-and-white conversion    |
-| `thresholdValue`     | Threshold cutoff                                     |
-| `minConfidence`      | Configure the OCR confidence threshold               |
-| `smartCoreApproval`  | Control the scanner's automatic review-flag behavior |
-| `debug`              | Save the processed image                             |
-| `debugOutputPath`    | Set the debug image path                             |
-
-In the current scanner implementation, `minConfidence` defaults to 65 when not provided. The custom example above uses 60.
-
-The scanner also has a processing timeout. Applications should handle unsuccessful scans and retry only when appropriate.
-
-### 4. Scan an image from a Buffer
-
-The scanner accepts a file path or a Node.js `Buffer`.
-
-This is useful when an image comes from an upload form.
-
-```typescript
-import { scanAndValidateNRCImage } from "./scanner/nrc-scanner.js";
-
-async function scanUploadedImage(buffer: Buffer) {
-  const result = await scanAndValidateNRCImage(buffer, {
-    minConfidence: 70,
-    debug: false,
-  });
-
-  if (!result.success) {
-    return {
-      status: "SCAN_FAILED",
-      message: result.error,
-    };
-  }
-
-  if (!result.isValid || result.requiresManualReview) {
-    return {
-      status: "MANUAL_REVIEW",
-      documentType: result.documentType,
-      confidence: result.confidence,
-      extractedNRC: result.extractedNRC,
-    };
-  }
-
-  return {
-    status: "AUTOMATED_CHECKS_PASSED",
-    documentType: result.documentType,
-    confidence: result.confidence,
-    extractedNRC: result.extractedNRC,
-    data: result.data,
-  };
-}
-```
-
-The final status represents your application's workflow decision, not proof of identity or document authenticity.
-
-### 5. Understanding OCR results
-
-The scanner returns a `BankGradeScanResult` object.
-
-| Field                  | Description                                      |
-| ---------------------- | ------------------------------------------------ |
-| `success`              | Whether the scan completed and returned a result |
-| `documentType`         | Detected document category                       |
-| `rawText`              | Raw OCR text                                     |
-| `normalizedText`       | OCR text with Myanmar digits normalized          |
-| `extractedNRC`         | Extracted NRC candidate                          |
-| `extractedLicense`     | Extracted driving licence candidate              |
-| `extractedSerial`      | Extracted serial number candidate                |
-| `confidence`           | OCR engine confidence score                      |
-| `isValid`              | Result of the current document-specific checks   |
-| `requiresManualReview` | Current review flag                              |
-| `data`                 | Parsed NRC information, when available           |
-| `error`                | Error message when scanning fails                |
-
-The `success` field and `isValid` field have different meanings.
-
-For example, an image can be processed successfully even when the document cannot be identified or the extracted NRC is invalid.
-
-The current driving licence checks rely on extracted patterns and text. They do not establish that a licence is officially valid.
-
-### 6. Express.js integration
-
-The following example shows an upload endpoint using Express and Multer.
-
-Install the additional dependencies:
-
-```bash
-npm install express multer
-npm install -D @types/express @types/multer
-```
-
-Example:
-
-```typescript
-import express from "express";
-import multer from "multer";
-import { scanAndValidateNRCImage } from "./scanner/nrc-scanner.js";
-
-const app = express();
-
-const upload = multer({
-  storage: multer.memoryStorage(),
-  limits: {
-    fileSize: 5 * 1024 * 1024,
-  },
-});
-
-app.post("/api/nrc/scan", upload.single("document"), async (req, res) => {
-  if (!req.file) {
-    return res.status(400).json({
-      message: "Document image is required.",
-    });
-  }
-
-  try {
-    const result = await scanAndValidateNRCImage(req.file.buffer, {
-      minConfidence: 70,
-      debug: false,
-    });
-
-    if (!result.success) {
-      return res.status(422).json({
-        message: "Unable to process the document.",
-        error: result.error,
-      });
-    }
-
-    return res.status(200).json({
-      success: result.success,
-      documentType: result.documentType,
-      confidence: result.confidence,
-      extractedNRC: result.extractedNRC,
-      isValid: result.isValid,
-      requiresManualReview: result.requiresManualReview,
-      data: result.data,
-    });
-  } catch {
-    return res.status(500).json({
-      message: "An unexpected scanning error occurred.",
-    });
-  }
-});
-
-app.listen(3000, () => {
-  console.log("API listening on port 3000");
-});
-```
-
-This is a minimal integration example. A production API should also validate the uploaded file's actual content, apply authentication and authorization, use rate limiting, and implement centralized error handling.
-
-### 7. NestJS integration
-
-The scanner can be called from a NestJS service.
-
-```typescript
-import { Injectable } from "@nestjs/common";
-import { scanAndValidateNRCImage } from "./scanner/nrc-scanner.js";
-
-@Injectable()
-export class NrcScanService {
-  async scan(buffer: Buffer) {
-    const result = await scanAndValidateNRCImage(buffer, {
-      minConfidence: 70,
-      debug: false,
-    });
-
-    if (!result.success) {
-      return {
-        status: "SCAN_FAILED" as const,
-        message: result.error,
-      };
-    }
-
-    if (!result.isValid || result.requiresManualReview) {
-      return {
-        status: "MANUAL_REVIEW" as const,
-        documentType: result.documentType,
-        confidence: result.confidence,
-        extractedNRC: result.extractedNRC,
-      };
-    }
-
-    return {
-      status: "AUTOMATED_CHECKS_PASSED" as const,
-      documentType: result.documentType,
-      confidence: result.confidence,
-      extractedNRC: result.extractedNRC,
-      data: result.data,
-    };
-  }
-}
-```
-
-Register the service in your NestJS module and call it from a controller that accepts a validated uploaded file.
-
-Configure your upload interceptor, file-size limits, DTOs, error handling, and review workflow according to your application.
-
-### 8. Real-world OCR use cases
-
-**Customer registration**
-
-Extract an NRC candidate from an uploaded image to prefill a registration form. Ask the user to confirm the extracted value.
-
-**Customer onboarding**
-
-Use OCR to reduce manual data entry, then route uncertain results to an authorized reviewer.
-
-**HR and employee management**
-
-Extract NRC information during employee registration while retaining the required verification steps.
-
-**Fleet and driver management**
-
-Extract candidate driving licence numbers or serial numbers during driver onboarding.
-
-**Document processing systems**
-
-Identify likely NRC and driving licence front/back images to help route documents through an automated workflow.
-
-**Batch OCR processing**
-
-Process multiple documents through a queue with concurrency limits, error handling, retries, and controlled data retention.
-
-### 9. Production best practices
-
-- Test with representative images across different lighting, rotation, blur, and resolution conditions.
-- Enforce upload size limits and validate actual image content.
-- Use concurrency limits because OCR can consume significant CPU and memory.
-- Keep debug output disabled in production unless explicitly needed.
-- Avoid logging raw OCR text and complete NRC numbers unnecessarily.
-- Encrypt stored documents and restrict access to authorized users.
-- Apply an appropriate retention and deletion policy for personal information.
-- Route uncertain results, missing fields, and low-confidence scans to human review.
-- Test false positives, malformed images, OCR failures, and timeouts.
-- Do not use OCR results alone to approve identity, citizenship, legal status, or financial transactions.
-
-**Security notice:** OCR assists document processing. It does not independently establish identity or document authenticity.
-
-## 🏗️ Logical NRC Data Model
-
-The NRC data can be understood using the following logical relationships:
-
-```text
-┌──────────────────┐
-│      States      │
-├──────────────────┤
-│ id               │
-│ number           │
-│ name_en          │
-│ name_mm          │
-└────────┬─────────┘
-         │
-         │ 1 : N
-         ▼
-┌──────────────────┐
-│    Townships     │
-├──────────────────┤
-│ id               │
-│ code             │
-│ name_en          │
-│ name_mm          │
-│ state_id         │
-└──────────────────┘
-
-┌──────────────────┐
-│    NRC Record    │
-├──────────────────┤
-│ stateNumber      │
-│ townshipCode     │
-│ citizenType      │
-│ number           │
-└──────────────────┘
-```
-
-This is a conceptual model for explaining NRC structure. It is not a declaration that the library creates database tables.
-
-### NRC structure
-
-English:
-
-```text
-12/UKAMA(N)123456
-```
-
-Myanmar:
-
-```text
-၁၂/ဥကမ(နိုင်)၁၂၃၄၅၆
-```
-
-| Component     | Example  | Description             |
-| ------------- | -------- | ----------------------- |
-| State number  | `12`     | NRC state/region number |
-| Township code | `UKAMA`  | Township identifier     |
-| Citizen type  | `N`      | Citizen category        |
-| ID number     | `123456` | NRC number component    |
-
-## 🔄 Library Flow
-
-```text
-              Application / CLI
-                     │
-                     ▼
-          myanmar-nrc-validator
-                     │
-        ┌────────────┼────────────┐
-        ▼            ▼            ▼
-     Validate      Parse        Format
-        │            │            │
-        └────────────┼────────────┘
-                     ▼
-               NRC Utilities
-                     │
-                     ▼
-          State / Township Data
-
-          OCR Scanner (optional)
-                     │
-                     ▼
-              Image Preprocessing
-                     │
-                     ▼
-                Tesseract OCR
-                     │
-                     ▼
-           Extract and Normalize
-                     │
-                     ▼
-            NRC Validation Checks
-                     │
-                     ▼
-             Review Workflow
-```
-
-## 🌐 Supported Use Cases
-
-The package's core utilities can be used in:
-
-- Node.js applications
-- TypeScript and JavaScript projects
-- NestJS APIs
-- Express.js APIs
-- React applications
-- React Hook Form integrations
-- Registration and identity forms
-- Database and API input validation
-- CLI tools
-
-The OCR scanner can additionally support:
-
-- Document image processing
-- Customer onboarding
-- Employee registration
-- Driving licence data extraction
-- Manual-review workflows
-- Batch document processing
-
-Browser-based OCR requires a separate browser-compatible implementation and build. The Node.js scanner documented here uses `sharp` and should not be assumed to run directly in a browser.
-
-## 📚 API Overview
-
-| Function / Export           | Purpose                                                 |
-| --------------------------- | ------------------------------------------------------- |
-| `validateNRC()`             | Validate an NRC string                                  |
-| `parseNRC()`                | Parse an NRC into structured data                       |
-| `formatNRC()`               | Convert supported NRC formats                           |
-| `composeNRC()`              | Construct an NRC string                                 |
-| `getStates()`               | Get state/region data                                   |
-| `getStateTownships()`       | Get townships for a state/region                        |
-| `getCitizenTypes()`         | Get all citizen types                                   |
-| `getCitizenType()`          | Get a citizen type or the complete list                 |
-| `nrcStringSchema`           | Zod NRC validation schema                               |
-| `scanAndValidateNRCImage()` | Scan a document image and inspect extracted information |
-
-The OCR scanner's public availability depends on whether its module is included and exported by the published package.
-
-## 🧑‍💻 TypeScript Example
-
-```typescript
-type NRC = {
-  stateNumber: string;
-  townshipCode: string;
-  citizenType: string;
-  number: string;
-};
-
-const nrc: NRC = {
-  stateNumber: "12",
-  townshipCode: "UKAMA",
-  citizenType: "N",
+const parsed: ParsedNRC | null = parseNRC("12/UKAMA(N)123456");
+
+const components: ComposeOptions = {
+  stateCode: "12",
+  township: "UKAMA",
+  type: "N",
   number: "123456",
 };
-
-console.log(nrc);
 ```
 
-## 📁 Suggested Project Structure
+### Extend Zod strings
 
-```text
-myanmar-nrc-validator/
-├── src/
-│   ├── data/
-│   │   ├── states.ts
-│   │   ├── townships.ts
-│   │   └── citizen-types.ts
-│   │
-│   ├── schemas/
-│   │   └── nrc.schema.ts
-│   │
-│   ├── utils/
-│   │   ├── normalize.ts
-│   │   ├── parser.ts
-│   │   ├── formatter.ts
-│   │   └── validator.ts
-│   │
-│   ├── scanner/
-│   │   └── nrc-scanner.ts
-│   │
-│   ├── compose.ts
-│   ├── index.ts
-│   └── cli.ts
-│
-├── tests/
-│   ├── validate.test.ts
-│   ├── parse.test.ts
-│   ├── format.test.ts
-│   ├── compose.test.ts
-│   └── scanner.test.ts
-│
-├── dist/
-├── package.json
-├── tsconfig.json
-├── README.md
-└── LICENSE
+Use `extendZodWithNRC()` to add an `.nrc()` method to `ZodString` at runtime:
+
+```typescript
+import { z } from "zod";
+import { extendZodWithNRC } from "myanmar-nrc-validator";
+
+extendZodWithNRC();
+
+const formSchema = z.object({
+  nrc: z.string().nrc(),
+});
+
+const result = formSchema.safeParse({
+  nrc: "၁၂/ဥကမ(နိုင်)၁၂၃၄၅၆",
+});
+
+console.log(result.success);
 ```
 
-This is a suggested structure. Your actual project can use a different layout.
+Use `nrcStringSchema` when you want the package's exported schema directly. Use the extension helper when you specifically want the `.nrc()` method in a Zod string schema.
 
-## 🤝 Contributing
+## OCR document scanning
 
-Contributions, bug reports, improvements, tests, and additional NRC data are welcome.
+The OCR scanner accepts an image path or a Node.js `Buffer`. It preprocesses images with Sharp and recognizes text with Tesseract.js.
 
-To contribute:
+### Scan an image
 
-1. Create a feature branch.
-2. Make your changes.
-3. Add or update tests.
-4. Run the test suite.
-5. Build the package.
-6. Open a pull request.
+```typescript
+import { readFile } from "node:fs/promises";
+import { scanAndValidateNRCImage } from "myanmar-nrc-validator";
 
-Example:
+const image = await readFile("./nrc-front.jpg");
+
+const result = await scanAndValidateNRCImage(image, {
+  resizeWidth: 2200,
+  grayscale: true,
+  normalize: true,
+  minConfidence: 60,
+});
+
+if (!result.success) {
+  console.error("Scan failed:", result.error);
+} else {
+  console.log("Document type:", result.documentType);
+  console.log("Extracted NRC:", result.extractedNRC);
+  console.log("Confidence:", result.confidence);
+  console.log("Manual review required:", result.requiresManualReview);
+}
+```
+
+The exact output fields depend on the result type and scan path. Inspect the exported `BankGradeScanResult` type for the complete shape.
+
+### Scanner utilities
+
+| Function | Purpose |
+| --- | --- |
+| `scanAndValidateNRCImage(input, options?)` | Run an OCR scan and return extracted data and review flags. |
+| `scanAndValidateWithRetry(input, options?)` | Retry scanning with adjusted preprocessing options. |
+| `scanWithCache(input, options?)` | Reuse cached OCR results for the same image and options. |
+| `clearOCRCache()` | Clear cached OCR results. |
+| `detectDocumentType(text)` | Classify OCR text as an NRC or driving-licence front/back. |
+| `extractAndCleanNRC(text)` | Extract and clean an NRC string from OCR text. |
+| `extractAndCleanLicense(text)` | Extract a licence number and serial number from OCR text. |
+| `normalizeDigits(text)` | Convert Myanmar numerals in text to ASCII digits. |
+
+### OCR review guidance
+
+OCR is probabilistic. Image quality, glare, rotation, blur, fonts, and document condition can affect extraction and confidence.
+
+Recommended workflow:
+
+1. Capture a clear, well-lit image with the document fully visible.
+2. Run the scan and check whether it succeeded.
+3. Review the extracted values, document type, and confidence.
+4. Treat low-confidence, unknown, or flagged results as requiring human review.
+5. Verify sensitive information using an appropriate trusted process before acting on it.
+
+A high OCR confidence score does not establish that the document is authentic or that the extracted identity is correct. Do not use OCR alone as the basis for consequential identity decisions.
+
+## Model Context Protocol (MCP) Server
+
+The repository includes a local stdio MCP server at `src/mcp-server.ts`. It exposes supported package functions as tools for MCP-compatible applications. The documented workflow runs the server from a local source checkout; the server is not published as a separate npm executable.
+
+### Run locally
 
 ```bash
-git checkout -b feature/improve-nrc-validation
-
-npm test
-
-npm run build
-
-git add .
-
-git commit -m "feat: improve NRC validation"
-
-git push origin feature/improve-nrc-validation
+git clone https://github.com/aungphyoekhant/myanmar-nrc-validator.git
+cd myanmar-nrc-validator
+npm install
+npm run mcp:dev
 ```
 
-Use the test and build commands configured in your project's `package.json`.
+You can also run the server directly:
 
-## 📄 License
+```bash
+npx tsx src/mcp-server.ts
+```
 
-MIT License © Aung Phyo Khant
+Keep the server process available while the MCP client is connected. In the configurations below, replace `/absolute/path/to/myanmar-nrc-validator` with the absolute path to your local repository. The `npm` command must be available on the client's `PATH`.
 
-See the `LICENSE` file for the complete license text.
+### Claude Desktop configuration
 
-## ⭐ Support
+Add the following entry to the `mcpServers` object in your Claude Desktop configuration file (`claude_desktop_config.json`):
 
-If this package is useful to you, consider giving the repository a ⭐ on GitHub.
+```json
+{
+  "mcpServers": {
+    "myanmar-nrc-validator": {
+      "command": "npm",
+      "args": [
+        "--prefix",
+        "/absolute/path/to/myanmar-nrc-validator",
+        "run",
+        "mcp:dev"
+      ]
+    }
+  }
+}
+```
 
-Made with ❤️ for Myanmar developers.
+Save the configuration and restart Claude Desktop. For current client-specific instructions, consult the [Anthropic MCP documentation](https://docs.anthropic.com/en/docs/claude-code/mcp).
+
+### Cursor configuration
+
+Create `.cursor/mcp.json` in your project, or add the server to the appropriate user-level Cursor MCP configuration:
+
+```json
+{
+  "mcpServers": {
+    "myanmar-nrc-validator": {
+      "command": "npm",
+      "args": [
+        "--prefix",
+        "/absolute/path/to/myanmar-nrc-validator",
+        "run",
+        "mcp:dev"
+      ]
+    }
+  }
+}
+```
+
+Reload Cursor or restart the MCP server from Cursor's MCP settings. Configuration locations can change, so refer to the [Cursor MCP documentation](https://docs.cursor.com/context/model-context-protocol) for current instructions.
+
+### Available MCP tools
+
+| Tool | Description |
+| --- | --- |
+| `validate_nrc` | Validate an NRC string. |
+| `is_valid_township` | Check a township against a state/region. |
+| `parse_nrc` | Parse NRC components and return the canonical `townshipCode`. |
+| `get_states` | Return supported states and regions. |
+| `get_townships` | List townships, optionally filtered by state and query. |
+| `search_townships` | Search township names and codes across regions. |
+| `get_state_townships` | Return region metadata and its township list. |
+| `get_citizen_types` | Return citizen-type codes and labels. |
+| `get_citizen_type` | Extract a citizen type or list all types. |
+| `compose_nrc` | Compose an NRC from its components. |
+| `format_nrc` | Format an NRC in English or Myanmar. |
+| `validate_nrc_schema` | Validate an NRC with the exported Zod schema. |
+| `extend_zod_with_nrc` | Apply the Zod string extension. |
+| `get_data_catalog` | Return state and citizenship data constants. |
+| `normalize_digits` | Convert Myanmar numerals to ASCII digits. |
+| `detect_document_type` | Classify OCR text by document type. |
+| `extract_and_clean_nrc` | Extract and clean an NRC from OCR text. |
+| `extract_and_clean_license` | Extract licence and serial numbers from OCR text. |
+| `scan_nrc_image` | OCR-scan a base64-encoded image. |
+| `scan_nrc_image_with_retry` | OCR-scan an image using the retry workflow. |
+| `scan_nrc_image_with_cache` | OCR-scan an image using the option-sensitive cache. |
+| `clear_ocr_cache` | Clear cached OCR results. |
+
+MCP image tools accept an `imageBase64` argument containing base64-encoded image data or a data URL. The documented input limit is **15 MiB**. Optional scan parameters include `resizeWidth`, `grayscale`, `normalize`, `contrastMultiplier`, `rotateDegrees`, `minConfidence`, and other supported `ScanOptions` fields.
+
+## API Reference
+
+This table summarizes the main documented exports. Check the package's TypeScript declarations for exact parameter and return types.
+
+| Export | Description |
+| --- | --- |
+| `validateNRC`, `isValidTownship` | Validate NRC strings and township membership. |
+| `parseNRC`, `getCitizenType`, `getCitizenTypes` | Parse NRC values and retrieve citizen-type information. |
+| `getStates`, `getStateTownships` | Retrieve state/region and township data. |
+| `composeNRC`, `formatNRC` | Build and format NRC strings. |
+| `nrcStringSchema`, `extendZodWithNRC` | Zod schema and extension helper. |
+| `scanAndValidateNRCImage`, `scanAndValidateWithRetry`, `scanWithCache`, `clearOCRCache` | OCR scanning, retry, and cache utilities. |
+| `detectDocumentType`, `extractAndCleanNRC`, `extractAndCleanLicense`, `normalizeDigits` | OCR text-processing helpers. |
+| `STATE_REGIONS`, `CITIZENSHIP_TYPES` | Raw reference-data constants. |
+
+## Development
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/aungphyoekhant/myanmar-nrc-validator.git
+cd myanmar-nrc-validator
+npm install
+```
+
+Build the project:
+
+```bash
+npm run build
+```
+
+Run the local MCP server during development:
+
+```bash
+npm run mcp:dev
+```
+
+The project is TypeScript-first and emits ESM JavaScript and declaration files into `dist/`. Available scripts can be inspected in `package.json`:
+
+```bash
+npm run
+```
+
+Before publishing a release, verify the build, test the documented examples, and ensure that package exports and README examples match the code being released.
+
+## Troubleshooting
+
+### The CLI command is not found
+
+Try running it through `npx`:
+
+```bash
+npx myanmar-nrc-validator --help
+```
+
+### `parseNRC()` returns `null`
+
+The input may be invalid or outside the package's supported format/reference data. Check the input string and call `validateNRC()` before using the parsed result.
+
+### `composeNRC()` returns `null`
+
+Check that the state/region code, township, citizen type, and number are supported and correctly supplied.
+
+### OCR returns an unknown document type or needs manual review
+
+Try a sharper, well-lit, front-facing image with less glare and blur. Check the extracted text and review flags. OCR results may still need manual correction.
+
+### The MCP server does not appear in the client
+
+- Confirm that dependencies are installed in the local checkout.
+- Replace the sample repository path with the correct absolute path.
+- Confirm that `npm` is available to the MCP client's process.
+- Restart or reload the client after editing its configuration.
+- Review the client's MCP logs for startup or configuration errors.
+
+## Security and Privacy
+
+NRC numbers and identity-document images are sensitive personal information. Applications using this package should:
+
+- Collect and process only the information needed for a legitimate purpose.
+- Avoid logging full NRC numbers, document images, or extracted identity data.
+- Protect temporary files and cached OCR results with appropriate access controls.
+- Define retention and deletion rules for images and extracted data.
+- Restrict access to OCR results and review workflows.
+- Obtain appropriate consent and comply with applicable privacy and data-protection requirements.
+- Avoid treating format validation or OCR output as proof of identity or authenticity.
+
+Review how your application handles files, logs, and caching before processing real identity documents. This package's README does not make a claim that all application data is automatically encrypted or deleted.
+
+## Contributing
+
+Contributions, bug reports, and documentation improvements are welcome.
+
+Before opening a pull request:
+
+1. Create a focused branch for your change.
+2. Keep the change scoped and explain its motivation.
+3. Add or update tests for behavior changes when a test suite is available.
+4. Update documentation when public APIs or behavior change.
+5. Run the project build:
+
+   ```bash
+   npm run build
+   ```
+
+6. Include relevant examples and compatibility notes in the pull request description.
+
+For bugs and feature requests, open an issue in the [GitHub repository](https://github.com/aungphyoekhant/myanmar-nrc-validator).
+
+## License
+
+The project metadata declares this package as **MIT licensed**. Review the repository's `LICENSE` file to confirm the terms that apply to the version you use.
+
+## Support
+
+- **Issues and feature requests:** [GitHub Issues](https://github.com/aungphyoekhant/myanmar-nrc-validator/issues)
+- **Source code:** [GitHub repository](https://github.com/aungphyoekhant/myanmar-nrc-validator)
+- **Package:** [npm — myanmar-nrc-validator](https://www.npmjs.com/package/myanmar-nrc-validator)
+
+---
+
+## DEVELOPER README
+-- This README is for developers only. For end-users, see the [README.md](https://github.com/aungphyoekhant/myanmar-nrc-validator/blob/main/README.md) file.
+
+---
+## DEVELOPER NAME
+
+Aung Phyo Khant
+
+## DEVELOPER CONTACT
+
+GitHub: [aungphyoekhant](https://github.com/aungphyoekhant)
+
+Email: [aungphyokhant@gmail.com](mailto:aungphyokhant@gmail.com)
+
+<div align="center">
+
+**Built for developers working with Myanmar NRC data. 🇲🇲**
+
+If this package is useful to your project, consider starring the repository and sharing feedback through GitHub Issues.
+
+</div>
